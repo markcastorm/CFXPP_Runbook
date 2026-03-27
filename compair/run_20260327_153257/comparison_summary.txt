@@ -1,0 +1,49 @@
+======================================================================
+CFXPP COMPARISON REPORT
+======================================================================
+
+Generated: 2026-03-27 15:33:17
+
+FILES COMPARED:
+  Pipeline Output: CFXPP_DATA_20260327_152850.xlsx
+  Reference:       CFXPP_DATA_20260324 (2).xlsx
+
+OVERALL STATISTICS:
+  Total cells compared: 2,238
+  Matches:              2,184 (97.59%)
+  Mismatches:           8
+  Missing (in ref):     41
+  Extra (in pipeline):  5
+
+MISMATCHES BY SECTION:
+  FX Pair Positioning: 7
+  G10 Currency Positioning: 1
+
+TOP MISMATCHES (by absolute difference):
+  2026-03-24 | USDBRL REALMONEY Volume (normalized)
+    Pipeline: -1000 | Reference: 1000.0 | Diff: -2000.0
+    Source: Export_03-27-2026_14_30_03.xlsx
+  2026-03-27 | USDMXN HEDGEFUND Volume (normalized)
+    Pipeline: 530 | Reference: -890.0 | Diff: 1420.0
+    Source: Export_03-27-2026_14_17_47.xlsx
+  2026-03-26 | USDMXN HEDGEFUND Volume (normalized)
+    Pipeline: 60 | Reference: -1000.0 | Diff: 1060.0
+    Source: Export_03-27-2026_14_17_47.xlsx
+  2026-03-24 | USDMXN HEDGEFUND Volume (normalized)
+    Pipeline: -1000 | Reference: 20.0 | Diff: -1020.0
+    Source: Export_03-27-2026_14_17_47.xlsx
+  2026-03-24 | USDBRL CORPORATE Volume (normalized)
+    Pipeline: 0 | Reference: 1000.0 | Diff: -1000.0
+    Source: Export_03-27-2026_14_29_21.xlsx
+
+MISSING CELLS BY CURRENCY PAIR:
+  USDCOP: 40 cells [NO SOURCE FILES]
+  G10/EUR: 1 cells
+
+EXTRA CELLS BY CURRENCY PAIR:
+  USDBRL: 4 cells
+  EM/TRY: 1 cells
+
+======================================================================
+Detailed CSV report: comparison_report.csv
+======================================================================

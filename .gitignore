@@ -44,16 +44,13 @@ env/
 # ============================================
 
 # Input directory (raw source files)
-Input/
-!Input/.gitkeep
+
 
 # Output directory (generated files)
-output/
-!output/.gitkeep
+
 
 # Master Data directory (rolling master files)
-Master Data/
-!Master Data/.gitkeep
+
 
 # Archive directory (processed files)
 archive/
@@ -82,14 +79,7 @@ logs/
 # ============================================
 # Comparison Tool Outputs
 # ============================================
-compair/run_*/
-compair/*.xlsx
-compair/*.csv
-compair/*.txt
-!compair/README.md
-!compair/config.py
-!compair/compare.py
-!compair/run_comparison.bat
+
 
 # ============================================
 # Temporary Files
