@@ -1,0 +1,144 @@
+# CFXPP Runbook .gitignore
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ============================================
+# Input/Output Data Files
+# ============================================
+
+# Input directory (raw source files)
+Input/
+!Input/.gitkeep
+
+# Output directory (generated files)
+output/
+!output/.gitkeep
+
+# Master Data directory (rolling master files)
+Master Data/
+!Master Data/.gitkeep
+
+# Archive directory (processed files)
+archive/
+!archive/.gitkeep
+
+# ============================================
+# Excel Files
+# ============================================
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+*.csv
+
+# Temporary Excel files
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+
+# ============================================
+# Comparison Tool Outputs
+# ============================================
+compair/run_*/
+compair/*.xlsx
+compair/*.csv
+compair/*.txt
+!compair/README.md
+!compair/config.py
+!compair/compare.py
+!compair/run_comparison.bat
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# ZIP files
+*.zip
+
+# ============================================
+# Project-Specific Excludes
+# ============================================
+
+# Old/unused development scripts
+_old_scripts/
+
+# Reference data (keep in repo for validation)
+# Uncomment if you want to track reference files:
+# !Project information/CFXPP_DATA_*.xlsx
+
+# Keep directory structure
+!.gitkeep
+
+# ============================================
+# OS-Specific
+# ============================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# ============================================
+# Documentation (Keep These)
+# ============================================
+!README.md
+!CLAUDE.md
+!requirements.txt
+!compair/README.md

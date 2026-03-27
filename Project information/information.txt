@@ -1,0 +1,114 @@
+
+we are creating something like this (D:\Projects\SIMBA-RUNBOOKS\JPMRGDPF_Runbook) but on steroids
+
+meaning for this runbook we will be processing large amounts of data file hang with for a minute
+
+we will be injesting alot of excell files in one go  i need a powerfull script with multiprocessing  to parse analyze and extract data from this file ana organize them based on my instructions like (D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\Project information\CFXPP_DATA_20260324.xlsx) this is a sample of my manual final results
+
+analyze that file the heades and subheaders are absolute no change about that  even the order in the manual  remember that  
+
+let me breakdown one section to you  these data files have different currencies pairs but yet similar client types  note that
+
+hear is a n example 
+for every currency pair  like(AUDUSD) has the following client types   
+
+ "Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified"
+ "Banks, Broker, "
+ " Corporate,, Real Money,"
+ "Banks, "
+ " Broker,"
+ " Corporate,"
+ " Hedge Fund,"
+ " Real Money,"
+ " Unclassified"
+ The start date and endate for every currency pairs is same this will help yu recognize the batch we are running 
+ The data files being downloaded will be for five days eg as of 03/20/2026 to 03/25/2026 as seen in image 2(D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\Project information\image2.png)
+ The next series of Dat to be exctrated will be as of/from 03/21/2026 and so onn so remember this  sometimes you will get that some of the file will mess a date that is vissible in the rest  like for this case we have (2026-03-21)
+ wich is missing in certain files so for those section we will have a blank space  for that date but filed for those that have the date 
+
+
+ the parsed needs to scan the input files analyze the structur to be dynamic as possible  to i dentify the key features we require (D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\Project information\image3.png)
+ here is a sample lets dis cuss this (D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\Massive data patch\Barcup_Exports\Export_03-25-2026_14_21_02.xlsx)
+  you can see that this file fales under(Currency Pair	AUDUSD)  we have the (Client Types	Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified)
+  (STARTDATE	2026-03-20
+ENDDATE	2026-03-25
+) to be this 
+
+we are interested in the date column (Date),(Volume (normalized))and (Closing Price) this is where the data is  while the rast helps us to mapp the data out to the out put file like forinstance this is mapped to 
+(CFXPP.FXPAIRPOSITIONING.NETCUMULATIVEPOSITIONSOFCURRENCYPAIRS.BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED.VOLUME_NORMALIZED.AUDUSD.D)
+(FX Pair Positioning, Net Cumulative Positions of Currency Pairs, Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified, Volume (normalized), AUDUSD)
+and this 
+(CFXPP.FXPAIRPOSITIONING.NETCUMULATIVEPOSITIONSOFCURRENCYPAIRS.BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED.CLOSING_PRICE.AUDUSD.D)
+(FX Pair Positioning, Net Cumulative Positions of Currency Pairs, Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified, Closing Price, AUDUSD)
+you can see the values for this the volume and clossing prise  are mapped correctly  on the out put file(D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\Project information\CFXPP_DATA_20260324.xlsx)
+
+
+like this file is for the (D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\Massive data patch\Barcup_Exports\Export_03-25-2026_14_21_51.xlsx)("Banks, Broker")
+ 
+ so we will takle all files with this (for every currency pair  like(AUDUSD) has the following client types   
+
+ "Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified"
+ "Banks, Broker, "
+ " Corporate,, Real Money,"
+ "Banks, "
+ " Broker,"
+ " Corporate,"
+ " Hedge Fund,"
+ " Real Money,"
+ " Unclassified")  match them arcorting to there currence in reltime  
+ remeber this are alot of file so the script need to be fast and acurate  we will have an input folder might have have subfolders nested nevermind them san for all the files in the folder and subfolders organive workesr and multiprocessing  load the files as you extract the data in realtime to the out put file   in realtime so the output file will be created first in the output folder with time stamped subfolders for every run and latest folder for the latest file sowe ar supposed to be adding the data in realtime ad the files are being processed  i need you to add something wo i might have the files for different section so for this we just process in realtime  till we finish once a file is processed move it to archive  based on a specified timestamp or startd and end date  so that we can i dentify this batch  so that when i drop files for then next sections for a similar start and end date ican classify them easily all am saying we need to be smart at this to identifying for which batch is this  and aupdate the data to the output with the specisified batch
+
+ supposed for start date  (STARTDATE	2026-03-20
+ENDDATE	2026-03-25
+) we process the (AUDUSD) files first  in the input  thos will be processed  and moved to specified archive and update speciified output then i drop a mixture of files of different currencies with the same  start and end date  i expect it to update that particular output file we creates  with the new values on top of audusd  you get the gist  efficiently and gennerate an new latest file for the latest folder replace the old one and so on  so that i avoid restrictions  so we inteligently process what we have are hand and generate a and csv report  file of what we are missing  you get my worries its like keeping track of what we have in realtime processed   
+
+
+so tommorrow when  we are gona have a defferent  start and end date so that we will hell us i dentify different  batch outputs we should be updating  lets be smart about this
+
+
+we have a different file instructure persay (
+
+like this file (D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\Massive data patch\Export_03-25-2026_14_08_30\Export_03-25-2026_14_08_30.xlsx)
+
+as you see this king of files are different(D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\Project information\image4.png)  for this we are getting individual dates perfeile it will fall under (STARTDATE)(2026-03-24) this will still fall under our original start and end date in the other files  will help us know with batch output to update 
+like you see for this (Client Types	Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified
+STARTDATE	2026-03-24
+Ccy Group	G10
+)
+we have this (Overview of Cumulative Positions		
+		Net Cumulative Positioning (normalized)
+	GBP	-150
+	CAD	-60
+	AUD	-50
+	NOK	-20
+	NZD	-10
+	CHF	-10
+	SEK	10
+	JPY	330
+	EUR	400
+	USD	1000
+)
+the (Net Cumulative Positioning (normalized) are the data ) while the currency will help up in maping
+will be maped to these subheaders and headers  (Currency Positioning, Overview of Cumulative Positions, Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified, G10, USD	Currency Positioning, Overview of Cumulative Positions, Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified, G10, EUR	Currency Positioning, Overview of Cumulative Positions, Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified, G10, AUD	Currency Positioning, Overview of Cumulative Positions, Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified, G10, NZD	Currency Positioning, Overview of Cumulative Positions, Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified, G10, NOK	Currency Positioning, Overview of Cumulative Positions, Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified, G10, CAD	Currency Positioning, Overview of Cumulative Positions, Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified, G10, SEK	Currency Positioning, Overview of Cumulative Positions, Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified, G10, JPY	Currency Positioning, Overview of Cumulative Positions, Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified, G10, CHF	Currency Positioning, Overview of Cumulative Positions, Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified, G10, GBP)
+respectively like in this image to its matching startdate (D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\Project information\image5.png)
+) (2026-03-24) perfect you have everything you need   yo get the gist i need you to analyze a sample of source files be as dynamic as possible be context aware to identify the rows and columns need ded without harcording possitions  dont waste tokens yo can read 3 or 2 difrent source file to know there structure and also read the hudge manual data(D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\Project information\CFXPP_DATA_20260324.xlsx) the headers and subheaders are absolute even there possitions the same order i evpect that on all output files  analyze the necesary file create the accurate pipline  dont waste tokens
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
