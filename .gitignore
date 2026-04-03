@@ -79,6 +79,12 @@ logs/
 # ============================================
 # Comparison Tool Outputs
 # ============================================
+compair/run_*/
+
+# ============================================
+# Verification Tool Outputs
+# ============================================
+verify/run_*/
 
 
 # ============================================
@@ -132,3 +138,4 @@ $RECYCLE.BIN/
 !CLAUDE.md
 !requirements.txt
 !compair/README.md
+!verify/README.md
