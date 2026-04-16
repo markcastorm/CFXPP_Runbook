@@ -11,10 +11,10 @@ import os
 # =================================================================
 
 # Archive folder containing source files to analyze
-ARCHIVE_FOLDER = r'D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\archive\20260330_20260403'
+ARCHIVE_FOLDER = r'D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\archive\20260410_20260415'
 
 # Output file to verify (DATA file from pipeline)
-OUTPUT_FILE = r'D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\output\20260403_150138\CFXPP_DATA_20260403_150138.xlsx'
+OUTPUT_FILE = r'D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\output\20260415_145339\CFXPP_DATA_20260415_145339.xlsx'
 
 # Alternative: Use latest output instead of master
 # OUTPUT_FILE = r'D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\output\latest\CFXPP_DATA_latest.xlsx'
