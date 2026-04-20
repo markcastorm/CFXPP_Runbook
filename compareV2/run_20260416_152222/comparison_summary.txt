@@ -1,0 +1,65 @@
+======================================================================
+CFXPP COMPARISON REPORT V2
+======================================================================
+
+Generated: 2026-04-16 15:22:34
+
+FILES COMPARED:
+  Pipeline Output: CFXPP_DATA_20260416_145155.xlsx
+  Reference:       CFXPP_DATA_20260416.xlsx
+  Archive Dir:     20260410_20260416
+
+OVERALL STATISTICS:
+  Total cells compared: 2,262
+  Matches:              1,929 (85.28%)
+  Mismatches:           4
+  Missing (in ref):     16
+  Extra (in pipeline):  313
+
+MISMATCHES BY SECTION:
+  FX Pair Positioning: 4
+
+TOP MISMATCHES (by absolute difference):
+  2026-04-14 | GBPUSD HEDGEFUND Volume (normalized)
+    Pipeline: -220 | Reference: -790.0 | Diff: 570.0
+    Source: Export_04-16-2026_14_15_02.xlsx; Export_04-16-2026_14_14_43.xlsx
+  2026-04-12 | GBPUSD HEDGEFUND Volume (normalized)
+    Pipeline: 70 | Reference: -150.0 | Diff: 220.0
+    Source: Export_04-16-2026_14_15_02.xlsx; Export_04-16-2026_14_14_43.xlsx
+  2026-04-13 | GBPUSD HEDGEFUND Volume (normalized)
+    Pipeline: -50 | Reference: -200.0 | Diff: 150.0
+    Source: Export_04-16-2026_14_15_02.xlsx; Export_04-16-2026_14_14_43.xlsx
+  2026-04-16 | GBPUSD HEDGEFUND Volume (normalized)
+    Pipeline: -980 | Reference: -970.0 | Diff: -10.0
+    Source: Export_04-16-2026_14_15_02.xlsx; Export_04-16-2026_14_14_43.xlsx
+
+MISSING CELLS BY CURRENCY PAIR:
+  EURUSD: 10 cells [NO SOURCE FILES]
+  USDPHP: 6 cells [NO SOURCE FILES]
+
+EXTRA CELLS BY CURRENCY PAIR:
+  GBPUSD: 18 cells
+  AUDUSD: 18 cells
+  USDJPY: 18 cells
+  USDMXN: 18 cells
+  USDTRY: 18 cells
+  USDZAR: 18 cells
+  USDPLN: 18 cells
+  USDCNH: 18 cells
+  USDHKD: 18 cells
+  USDSGD: 18 cells
+  USDINR: 17 cells
+  EURUSD: 16 cells
+  USDCAD: 16 cells
+  USDCLP: 14 cells
+  USDCOP: 14 cells
+  USDTWD: 14 cells
+  USDKRW: 10 cells
+  CHFUSD: 9 cells
+  USDBRL: 8 cells
+  USDPHP: 8 cells
+  USDPEN: 7 cells
+
+======================================================================
+Detailed CSV report: comparison_report.csv
+======================================================================

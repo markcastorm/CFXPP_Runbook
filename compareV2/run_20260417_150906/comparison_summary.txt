@@ -1,0 +1,41 @@
+======================================================================
+CFXPP COMPARISON REPORT V2
+======================================================================
+
+Generated: 2026-04-17 15:09:18
+
+FILES COMPARED:
+  Pipeline Output: CFXPP_DATA_20260417_150741.xlsx
+  Reference:       CFXPP_DATA_20260417.xlsx
+  Archive Dir:     20260413_20260417
+
+OVERALL STATISTICS:
+  Total cells compared: 2,212
+  Matches:              2,204 (99.64%)
+  Mismatches:           8
+  Missing (in ref):     0
+  Extra (in pipeline):  0
+
+MISMATCHES BY SECTION:
+  G10 Currency Positioning: 8
+
+TOP MISMATCHES (by absolute difference):
+  2026-04-16 | G10/USD BANKS_BROKER Net Cumulative Positioning
+    Pipeline: -70 | Reference: -280.0 | Diff: 210.0
+    Source: Export_04-17-2026_14_42_57.xlsx; Export_04-17-2026_14_41_08.xlsx; Export_04-17-2026_14_24_53.xlsx; Export_04-17-2026_14_24_36.xlsx; Export_04-17-2026_14_22_09.xlsx
+  2026-04-16 | G10/NZD BANKS_BROKER Net Cumulative Positioning
+    Pipeline: -180 | Reference: -30.0 | Diff: -150.0
+    Source: Export_04-17-2026_14_42_57.xlsx; Export_04-17-2026_14_41_08.xlsx; Export_04-17-2026_14_24_53.xlsx; Export_04-17-2026_14_24_36.xlsx; Export_04-17-2026_14_22_09.xlsx
+  2026-04-16 | G10/GBP BANKS_BROKER Net Cumulative Positioning
+    Pipeline: -250 | Reference: -130.0 | Diff: -120.0
+    Source: Export_04-17-2026_14_42_57.xlsx; Export_04-17-2026_14_41_08.xlsx; Export_04-17-2026_14_24_53.xlsx; Export_04-17-2026_14_24_36.xlsx; Export_04-17-2026_14_22_09.xlsx
+  2026-04-16 | G10/JPY BANKS_BROKER Net Cumulative Positioning
+    Pipeline: 360 | Reference: 270.0 | Diff: 90.0
+    Source: Export_04-17-2026_14_42_57.xlsx; Export_04-17-2026_14_41_08.xlsx; Export_04-17-2026_14_24_53.xlsx; Export_04-17-2026_14_24_36.xlsx; Export_04-17-2026_14_22_09.xlsx
+  2026-04-16 | G10/SEK BANKS_BROKER Net Cumulative Positioning
+    Pipeline: 90 | Reference: 40.0 | Diff: 50.0
+    Source: Export_04-17-2026_14_42_57.xlsx; Export_04-17-2026_14_41_08.xlsx; Export_04-17-2026_14_24_53.xlsx; Export_04-17-2026_14_24_36.xlsx; Export_04-17-2026_14_22_09.xlsx
+
+======================================================================
+Detailed CSV report: comparison_report.csv
+======================================================================

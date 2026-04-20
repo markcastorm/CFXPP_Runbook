@@ -1,0 +1,31 @@
+====================================================================================================
+MISSING CATEGORIES REPORT
+====================================================================================================
+
+Generated: 2026-04-16 15:28:54
+Output file: D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\output\20260416_145155\CFXPP_DATA_20260416_145155.xlsx
+Archive folder: D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\archive\20260410_20260416
+
+Total columns: 540
+Columns with data: 540
+Columns missing data: 0
+
+====================================================================================================
+COLUMNS WITH NO DATA (Missing Source Files)
+====================================================================================================
+
+  (None - all columns have data!)
+
+====================================================================================================
+SOURCE FILE SUMMARY
+====================================================================================================
+
+Total source files: 405
+
+File types:
+  CCY_POS: 405 files
+
+Dates found: 2026-04-16
+
+FX Pair files: 0 unique combinations
+Currency Positioning files: 40 unique combinations

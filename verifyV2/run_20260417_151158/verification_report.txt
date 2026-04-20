@@ -1,0 +1,98 @@
+================================================================================
+CFXPP COVERAGE VERIFICATION REPORT V2
+================================================================================
+Generated:      2026-04-17 15:11:58
+Output file:    CFXPP_DATA_20260417_150741.xlsx
+Mapping CSV:    source_column_mapping.csv
+Archive folder: 20260413_20260417
+Date range:     2026-04-13 → 2026-04-17  (5 dates)
+
+================================================================================
+SUMMARY
+================================================================================
+  Mapped columns with data    (OK):      497
+  Mapped columns with NO data (GAP):       9  ← real problems
+  Columns with data, no source (ORPHAN):   0
+  Archive files not processed:            12
+    of which likely duplicates:           12
+    of which genuinely unprocessed:        0
+
+  Coverage: 497/506 mapped columns have data (98.2%)
+
+================================================================================
+COVERAGE BY SECTION
+================================================================================
+    EM_CCY_POS                  72 ok    0 gap  (100%)
+  ! FX_PAIR                    335 ok    9 gap  (97%)
+    G10_CCY_POS                 90 ok    0 gap  (100%)
+
+================================================================================
+COVERAGE BY DATE
+================================================================================
+  Date           Filled    Empty   Coverage
+  ------------  -------  -------  ---------
+  ! 2026-04-13        479       61      88.7%
+  ! 2026-04-14        478       62      88.5%
+  ! 2026-04-15        474       66      87.8%
+  ! 2026-04-16        487       53      90.2%
+  ! 2026-04-17        294      246      54.4%
+
+================================================================================
+GAPS — MAPPED COLUMNS WITH ZERO DATA (9)
+================================================================================
+    1. CFXPP.FXPAIRPOSITIONING.NETCUMULATIVEPOSITIONSOFCURRENCYPAIRS.BANKS.CLOSING_PRICE.CHFUSD.D
+       Section:     FX_PAIR
+       Description: FX Pair Positioning, Net Cumulative Positions of Currency Pairs, Banks, Closing Price, CHFUSD
+       Source file: Export_04-17-2026_14_39_56.xlsx
+    2. CFXPP.FXPAIRPOSITIONING.NETCUMULATIVEPOSITIONSOFCURRENCYPAIRS.BANKS_BROKER.CLOSING_PRICE.CHFUSD.D
+       Section:     FX_PAIR
+       Description: FX Pair Positioning, Net Cumulative Positions of Currency Pairs, Banks, Broker, Closing Price, CHFUSD
+       Source file: Export_04-17-2026_14_38_47.xlsx
+    3. CFXPP.FXPAIRPOSITIONING.NETCUMULATIVEPOSITIONSOFCURRENCYPAIRS.BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED.CLOSING_PRICE.CHFUSD.D
+       Section:     FX_PAIR
+       Description: FX Pair Positioning, Net Cumulative Positions of Currency Pairs, Banks, Broker, Corporate, Hedge Fund, Real Money, Unclassified, Closing Price, CHFUSD
+       Source file: Export_04-17-2026_14_38_18.xlsx
+    4. CFXPP.FXPAIRPOSITIONING.NETCUMULATIVEPOSITIONSOFCURRENCYPAIRS.BROKER.CLOSING_PRICE.CHFUSD.D
+       Section:     FX_PAIR
+       Description: FX Pair Positioning, Net Cumulative Positions of Currency Pairs, Broker, Closing Price, CHFUSD
+       Source file: Export_04-17-2026_14_40_26.xlsx
+    5. CFXPP.FXPAIRPOSITIONING.NETCUMULATIVEPOSITIONSOFCURRENCYPAIRS.CORPORATE.CLOSING_PRICE.CHFUSD.D
+       Section:     FX_PAIR
+       Description: FX Pair Positioning, Net Cumulative Positions of Currency Pairs, Corporate, Closing Price, CHFUSD
+       Source file: Export_04-17-2026_14_41_01.xlsx
+    6. CFXPP.FXPAIRPOSITIONING.NETCUMULATIVEPOSITIONSOFCURRENCYPAIRS.CORPORATE_REALMONEY.CLOSING_PRICE.CHFUSD.D
+       Section:     FX_PAIR
+       Description: FX Pair Positioning, Net Cumulative Positions of Currency Pairs, Corporate, Real Money, Closing Price, CHFUSD
+       Source file: Export_04-17-2026_14_39_21.xlsx
+    7. CFXPP.FXPAIRPOSITIONING.NETCUMULATIVEPOSITIONSOFCURRENCYPAIRS.HEDGEFUND.CLOSING_PRICE.CHFUSD.D
+       Section:     FX_PAIR
+       Description: FX Pair Positioning, Net Cumulative Positions of Currency Pairs, Hedge Fund, Closing Price, CHFUSD
+       Source file: Export_04-17-2026_14_41_34.xlsx
+    8. CFXPP.FXPAIRPOSITIONING.NETCUMULATIVEPOSITIONSOFCURRENCYPAIRS.REALMONEY.CLOSING_PRICE.CHFUSD.D
+       Section:     FX_PAIR
+       Description: FX Pair Positioning, Net Cumulative Positions of Currency Pairs, Real Money, Closing Price, CHFUSD
+       Source file: Export_04-17-2026_14_42_08.xlsx
+    9. CFXPP.FXPAIRPOSITIONING.NETCUMULATIVEPOSITIONSOFCURRENCYPAIRS.UNCLASSIFIED.CLOSING_PRICE.CHFUSD.D
+       Section:     FX_PAIR
+       Description: FX Pair Positioning, Net Cumulative Positions of Currency Pairs, Unclassified, Closing Price, CHFUSD
+       Source file: Export_04-17-2026_14_42_36.xlsx
+
+================================================================================
+GENUINELY UNPROCESSED ARCHIVE FILES (0)
+--------------------------------------------------------------------------------
+  These are in the archive but not in the mapping and do not look
+  like duplicate exports (no numeric suffix before .xlsx).
+
+  None.
+
+================================================================================
+LIKELY DUPLICATE EXPORTS (skipped by pipeline) (12)
+--------------------------------------------------------------------------------
+  Files with a numeric suffix (_1, _2 …) — pipeline intentionally
+  skips these as duplicate exports of the same source data.
+
+  (set VERBOSE_UNPROC_DUPLICATES = True in config_v2.py to list them)
+
+================================================================================
+END OF REPORT
+================================================================================

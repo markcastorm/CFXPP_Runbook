@@ -11,16 +11,16 @@ import os
 # =================================================================
 
 # Your pipeline output (DATA file)
-OUTPUT_DATA = r'D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\output\20260416_145155\CFXPP_DATA_20260416_145155.xlsx'
+OUTPUT_DATA = r'D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\output\20260417_150741\CFXPP_DATA_20260417_150741.xlsx'
 
 # Manual reference file to compare against
-REFERENCE_DATA = r'D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\CFXPP_DATA_20260416.xlsx'
+REFERENCE_DATA = r'D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\compareV2\reference_input\CFXPP_DATA_20260417.xlsx'
 
 # Source mapping CSV (from pipeline output folder)
-MAPPING_CSV = r'D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\output\20260416_145155\source_column_mapping.csv'
+MAPPING_CSV = r'D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\output\20260417_150741\source_column_mapping.csv'
 
 # Archive directory for the batch
-ARCHIVE_DIR = r'D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\archive\20260410_20260416'
+ARCHIVE_DIR = r'D:\Projects\SIMBA-RUNBOOKS\CFXPP_Runbook\archive\20260413_20260417'
 
 # =================================================================
 # OUTPUT SETTINGS

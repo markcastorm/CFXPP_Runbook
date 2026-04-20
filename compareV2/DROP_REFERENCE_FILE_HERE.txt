@@ -1,0 +1,6 @@
+Drop your reference .xlsx file into this folder, then run compare_v2.py (or run_comparison.bat).
+
+Rules:
+  - One .xlsx file at a time
+  - Remove the old one before dropping in a new one
+  - The script will error clearly if 0 or more than 1 xlsx is found
