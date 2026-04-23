@@ -1,0 +1,29 @@
+======================================================================
+CFXPP COMPARISON REPORT V2
+======================================================================
+
+Generated: 2026-04-22 14:52:31
+
+FILES COMPARED:
+  Pipeline Output: CFXPP_DATA_20260422_145108.xlsx
+  Reference:       CFXPP_DATA_20260420.xlsx
+  Archive Dir:     20260417_20260422
+
+OVERALL STATISTICS:
+  Total cells compared: 1,940
+  Matches:              1,586 (81.75%)
+  Mismatches:           0
+  Missing (in ref):     354
+  Extra (in pipeline):  0
+
+MISSING CELLS BY CURRENCY PAIR:
+  USDZAR: 89 cells [NO SOURCE FILES]
+  USDCNH: 86 cells [NO SOURCE FILES]
+  USDPLN: 82 cells [NO SOURCE FILES]
+  USDTRY: 80 cells [NO SOURCE FILES]
+  USDCAD: 10 cells [NO SOURCE FILES]
+  USDBRL: 7 cells [NO SOURCE FILES]
+
+======================================================================
+Detailed CSV report: comparison_report.csv
+======================================================================

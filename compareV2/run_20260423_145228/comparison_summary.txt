@@ -1,0 +1,68 @@
+======================================================================
+CFXPP COMPARISON REPORT V2
+======================================================================
+
+Generated: 2026-04-23 14:52:38
+
+FILES COMPARED:
+  Pipeline Output: CFXPP_DATA_20260423_145057.xlsx
+  Reference:       CFXPP_DATA_20260420.xlsx
+  Archive Dir:     20260417_20260423
+
+OVERALL STATISTICS:
+  Total cells compared: 2,289
+  Matches:              1,951 (85.23%)
+  Mismatches:           2
+  Missing (in ref):     16
+  Extra (in pipeline):  320
+
+MISMATCHES BY SECTION:
+  G10 Currency Positioning: 2
+
+TOP MISMATCHES (by absolute difference):
+  2026-04-22 | G10/AUD CORPORATE Net Cumulative Positioning
+    Pipeline: -360 | Reference: 40.0 | Diff: -400.0
+    Source: Export_04-23-2026_14_21_14.xlsx; Export_04-23-2026_14_10_36.xlsx; Export_04-23-2026_13_58_44.xlsx; Export_04-23-2026_13_59_11.xlsx
+  2026-04-21 | G10/GBP BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED Net Cumulative Positioning
+    Pipeline: 90 | Reference: 100.0 | Diff: -10.0
+    Source: Export_04-23-2026_14_15_25.xlsx; Export_04-23-2026_14_14_38.xlsx; Export_04-23-2026_14_14_05.xlsx; Export_04-23-2026_13_52_48.xlsx
+
+MISSING CELLS BY CURRENCY PAIR:
+  USDCOP: 6 cells [NO SOURCE FILES]
+  G10/USD: 1 cells
+  G10/AUD: 1 cells
+  G10/CHF: 1 cells
+  G10/NOK: 1 cells
+  G10/NZD: 1 cells
+  G10/SEK: 1 cells
+  G10/JPY: 1 cells
+  G10/CAD: 1 cells
+  G10/GBP: 1 cells
+  G10/EUR: 1 cells
+
+EXTRA CELLS BY CURRENCY PAIR:
+  EURUSD: 18 cells
+  GBPUSD: 18 cells
+  AUDUSD: 18 cells
+  USDJPY: 18 cells
+  USDCAD: 18 cells
+  USDTRY: 18 cells
+  USDZAR: 18 cells
+  USDPLN: 18 cells
+  USDCNH: 18 cells
+  USDHKD: 18 cells
+  USDSGD: 18 cells
+  USDINR: 18 cells
+  USDMXN: 16 cells
+  USDCLP: 15 cells
+  USDKRW: 12 cells
+  USDTWD: 12 cells
+  USDBRL: 11 cells
+  USDCOP: 11 cells
+  USDPHP: 10 cells
+  CHFUSD: 9 cells
+  USDPEN: 8 cells
+
+======================================================================
+Detailed CSV report: comparison_report.csv
+======================================================================

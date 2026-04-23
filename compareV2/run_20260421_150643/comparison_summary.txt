@@ -1,0 +1,52 @@
+======================================================================
+CFXPP COMPARISON REPORT V2
+======================================================================
+
+Generated: 2026-04-21 15:06:57
+
+FILES COMPARED:
+  Pipeline Output: CFXPP_DATA_20260421_150327.xlsx
+  Reference:       CFXPP_DATA_20260420 (1).xlsx
+  Archive Dir:     20260416_20260421
+
+OVERALL STATISTICS:
+  Total cells compared: 2,585
+  Matches:              1,928 (74.58%)
+  Mismatches:           7
+  Missing (in ref):     23
+  Extra (in pipeline):  627
+
+MISMATCHES BY SECTION:
+  EM Currency Positioning: 1
+  FX Pair Positioning: 6
+
+TOP MISMATCHES (by absolute difference):
+  2026-04-16 | USDMXN BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED Volume (normalized)
+    Pipeline: -740 | Reference: -180.0 | Diff: -560.0
+    Source: Export_04-21-2026_14_13_28.xlsx; Export_04-21-2026_14_13_02.xlsx; Export_04-21-2026_14_10_22.xlsx
+  2026-04-17 | EM/HUF CORPORATE Net Cumulative Positioning
+    Pipeline: -30 | Reference: 390.0 | Diff: -420.0
+    Source: Export_04-21-2026_14_21_08.xlsx; Export_04-21-2026_14_12_45.xlsx; Export_04-21-2026_13_53_31.xlsx
+  2026-04-17 | USDMXN BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED Volume (normalized)
+    Pipeline: -760 | Reference: -1000.0 | Diff: 240.0
+    Source: Export_04-21-2026_14_13_28.xlsx; Export_04-21-2026_14_13_02.xlsx; Export_04-21-2026_14_10_22.xlsx
+  2026-04-19 | USDMXN BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED Volume (normalized)
+    Pipeline: -760 | Reference: -960.0 | Diff: 200.0
+    Source: Export_04-21-2026_14_13_28.xlsx; Export_04-21-2026_14_13_02.xlsx; Export_04-21-2026_14_10_22.xlsx
+  2026-04-20 | USDMXN BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED Volume (normalized)
+    Pipeline: -760 | Reference: -940.0 | Diff: 180.0
+    Source: Export_04-21-2026_14_13_28.xlsx; Export_04-21-2026_14_13_02.xlsx; Export_04-21-2026_14_10_22.xlsx
+
+MISSING CELLS BY CURRENCY PAIR:
+  USDTRY: 9 cells [NO SOURCE FILES]
+  USDTWD: 7 cells [NO SOURCE FILES]
+  USDPEN: 6 cells [NO SOURCE FILES]
+  USDPLN: 1 cells
+
+EXTRA CELLS BY CURRENCY PAIR:
+  USDMXN: 626 cells
+  USDPLN: 1 cells
+
+======================================================================
+Detailed CSV report: comparison_report.csv
+======================================================================

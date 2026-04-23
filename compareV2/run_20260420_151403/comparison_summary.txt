@@ -1,0 +1,33 @@
+======================================================================
+CFXPP COMPARISON REPORT V2
+======================================================================
+
+Generated: 2026-04-20 15:14:15
+
+FILES COMPARED:
+  Pipeline Output: CFXPP_DATA_20260420_151310.xlsx
+  Reference:       CFXPP_DATA_20260420.xlsx
+  Archive Dir:     20260415_20260420
+
+OVERALL STATISTICS:
+  Total cells compared: 1,977
+  Matches:              1,881 (95.14%)
+  Mismatches:           0
+  Missing (in ref):     88
+  Extra (in pipeline):  8
+
+MISSING CELLS BY CURRENCY PAIR:
+  EURUSD: 70 cells [NO SOURCE FILES]
+  AUDUSD: 10 cells [NO SOURCE FILES]
+  USDPHP: 6 cells [NO SOURCE FILES]
+  USDTRY: 1 cells
+  USDPLN: 1 cells
+
+EXTRA CELLS BY CURRENCY PAIR:
+  USDPHP: 6 cells
+  USDTRY: 1 cells
+  USDPLN: 1 cells
+
+======================================================================
+Detailed CSV report: comparison_report.csv
+======================================================================
