@@ -1,0 +1,93 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-05-01 16:28:32
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260501_145844.xlsx
+  Reference       : CFXPP_DATA_20260501.xlsx
+  Archive Dir     : 20260427_20260501
+
+OVERALL STATISTICS:
+  Total cells compared : 2,242
+  Matches              : 2,218 (98.93%)
+  Mismatches           : 4
+  Missing (in ref)     : 10
+  New values (extra)   : 10
+
+OUTPUT FILES:
+  report_mismatches.csv  (4 rows)
+  report_missing.csv     (10 rows)
+  report_new_values.csv  (10 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    G10 Currency Positioning: 4
+
+  By Currency Pair:
+    G10/EUR: 1
+    G10/CHF: 1
+    G10/GBP: 1
+    G10/JPY: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-04-29  Column: 78  G10/JPY | REALMONEY | Net Cumulative Positioning
+      Pipeline : -920
+      Reference: 1000.0
+      Diff     : -1920.0
+      Source   : Export_05-01-2026_14_44_03.xlsx; Export_05-01-2026_14_23_37.xlsx; Export_05-01-2026_14_20_48.xlsx; Export_05-01-2026_14_07_37.xlsx
+    Date: 2026-04-27  Column: 11  G10/GBP | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Net Cumulative Positioning
+      Pipeline : -420
+      Reference: 270.0
+      Diff     : -690.0
+      Source   : Export_05-01-2026_14_35_32.xlsx; Export_05-01-2026_14_24_57.xlsx; Export_05-01-2026_14_15_15.xlsx; Export_05-01-2026_14_02_20.xlsx
+    Date: 2026-04-27  Column: 3  G10/EUR | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Net Cumulative Positioning
+      Pipeline : 30
+      Reference: 20.0
+      Diff     : 10.0
+      Source   : Export_05-01-2026_14_35_32.xlsx; Export_05-01-2026_14_24_57.xlsx; Export_05-01-2026_14_15_15.xlsx; Export_05-01-2026_14_02_20.xlsx
+    Date: 2026-04-27  Column: 10  G10/CHF | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Net Cumulative Positioning
+      Pipeline : 280
+      Reference: 270.0
+      Diff     : 10.0
+      Source   : Export_05-01-2026_14_35_32.xlsx; Export_05-01-2026_14_24_57.xlsx; Export_05-01-2026_14_15_15.xlsx; Export_05-01-2026_14_02_20.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_05-01-2026_14_02_20.xlsx
+    Export_05-01-2026_14_07_37.xlsx
+    Export_05-01-2026_14_15_15.xlsx
+    Export_05-01-2026_14_20_48.xlsx
+    Export_05-01-2026_14_23_37.xlsx
+    Export_05-01-2026_14_24_57.xlsx
+    Export_05-01-2026_14_35_32.xlsx
+    Export_05-01-2026_14_44_03.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDJPY: 10 cells  [NO SOURCE FILE]
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    GBPUSD: 5 cells
+    USDTRY: 5 cells
+
+  Source files copied to  files/new_values/:
+    Export_05-01-2026_14_14_25.xlsx
+    Export_05-01-2026_14_15_41.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

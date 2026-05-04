@@ -1,0 +1,72 @@
+======================================================================
+CFXPP COMPARISON REPORT V2
+======================================================================
+
+Generated: 2026-04-27 14:58:00
+
+FILES COMPARED:
+  Pipeline Output: CFXPP_DATA_20260427_145629.xlsx
+  Reference:       CFXPP_DATA_20260420 (1).xlsx
+  Archive Dir:     20260422_20260427
+
+OVERALL STATISTICS:
+  Total cells compared: 2,017
+  Matches:              1,224 (60.68%)
+  Mismatches:           4
+  Missing (in ref):     513
+  Extra (in pipeline):  276
+
+MISMATCHES BY SECTION:
+  FX Pair Positioning: 4
+
+TOP MISMATCHES (by absolute difference):
+  2026-04-22 | USDTRY HEDGEFUND Volume (normalized)
+    Pipeline: -160 | Reference: 1000.0 | Diff: -1160.0
+    Source: Export_04-27-2026_14_13_30.xlsx
+  2026-04-27 | USDTRY HEDGEFUND Volume (normalized)
+    Pipeline: -1000 | Reference: 10.0 | Diff: -1010.0
+    Source: Export_04-27-2026_14_13_30.xlsx
+  2026-04-24 | USDTRY HEDGEFUND Volume (normalized)
+    Pipeline: -540 | Reference: -50.0 | Diff: -490.0
+    Source: Export_04-27-2026_14_13_30.xlsx
+  2026-04-23 | USDTRY HEDGEFUND Volume (normalized)
+    Pipeline: -230 | Reference: 200.0 | Diff: -430.0
+    Source: Export_04-27-2026_14_13_30.xlsx
+
+MISSING CELLS BY CURRENCY PAIR:
+  USDCOP: 61 cells [NO SOURCE FILES]
+  USDPEN: 61 cells [NO SOURCE FILES]
+  USDCLP: 38 cells [NO SOURCE FILES]
+  G10/USD: 18 cells
+  G10/EUR: 18 cells
+  G10/AUD: 18 cells
+  G10/NZD: 18 cells
+  G10/CAD: 18 cells
+  G10/SEK: 18 cells
+  G10/JPY: 18 cells
+  G10/CHF: 18 cells
+  G10/GBP: 18 cells
+  EM/TRY: 18 cells
+  EM/INR: 18 cells
+  EM/MXN: 18 cells
+  EM/SGD: 18 cells
+  EM/PLN: 18 cells
+  EM/CZK: 18 cells
+  EM/HUF: 18 cells
+  EM/ZAR: 18 cells
+  G10/NOK: 17 cells
+  USDCNH: 10 cells [NO SOURCE FILES]
+  USDINR: 8 cells [NO SOURCE FILES]
+  USDBRL: 7 cells
+  CHFUSD: 5 cells [NO SOURCE FILES]
+
+EXTRA CELLS BY CURRENCY PAIR:
+  GBPUSD: 90 cells
+  EURUSD: 89 cells
+  AUDUSD: 89 cells
+  USDBRL: 7 cells
+  USDTRY: 1 cells
+
+======================================================================
+Detailed CSV report: comparison_report.csv
+======================================================================

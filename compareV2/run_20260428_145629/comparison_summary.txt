@@ -1,0 +1,21 @@
+======================================================================
+CFXPP COMPARISON REPORT V2
+======================================================================
+
+Generated: 2026-04-28 14:56:44
+
+FILES COMPARED:
+  Pipeline Output: CFXPP_DATA_20260428_145540.xlsx
+  Reference:       CFXPP_DATA_20260428.xlsx
+  Archive Dir:     20260423_20260428
+
+OVERALL STATISTICS:
+  Total cells compared: 1,998
+  Matches:              1,998 (100.00%)
+  Mismatches:           0
+  Missing (in ref):     0
+  Extra (in pipeline):  0
+
+======================================================================
+Detailed CSV report: comparison_report.csv
+======================================================================

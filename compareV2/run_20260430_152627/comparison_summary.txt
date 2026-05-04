@@ -1,0 +1,70 @@
+======================================================================
+CFXPP COMPARISON REPORT V2
+======================================================================
+
+Generated: 2026-04-30 15:26:40
+
+FILES COMPARED:
+  Pipeline Output: CFXPP_DATA_20260430_152514.xlsx
+  Reference:       CFXPP_DATA_20260429.xlsx
+  Archive Dir:     20260424_20260430
+
+OVERALL STATISTICS:
+  Total cells compared: 2,320
+  Matches:              1,966 (84.74%)
+  Mismatches:           3
+  Missing (in ref):     20
+  Extra (in pipeline):  331
+
+MISMATCHES BY SECTION:
+  FX Pair Positioning: 3
+
+TOP MISMATCHES (by absolute difference):
+  2026-04-28 | USDCLP BANKS Volume (normalized)
+    Pipeline: -1000 | Reference: 1000.0 | Diff: -2000.0
+    Source: Export_04-30-2026_14_42_06.xlsx
+  2026-04-29 | USDCLP BANKS Volume (normalized)
+    Pipeline: -1000 | Reference: 930.0 | Diff: -1930.0
+    Source: Export_04-30-2026_14_42_06.xlsx
+  2026-04-27 | USDCLP BANKS Volume (normalized)
+    Pipeline: 60 | Reference: 0.0 | Diff: 60.0
+    Source: Export_04-30-2026_14_42_06.xlsx
+
+MISSING CELLS BY CURRENCY PAIR:
+  G10/USD: 2 cells
+  G10/AUD: 2 cells
+  G10/NOK: 2 cells
+  G10/SEK: 2 cells
+  G10/NZD: 2 cells
+  G10/CHF: 2 cells
+  G10/JPY: 2 cells
+  G10/EUR: 2 cells
+  G10/CAD: 2 cells
+  G10/GBP: 2 cells
+
+EXTRA CELLS BY CURRENCY PAIR:
+  USDCOP: 21 cells
+  EURUSD: 18 cells
+  GBPUSD: 18 cells
+  AUDUSD: 18 cells
+  USDJPY: 18 cells
+  USDMXN: 18 cells
+  USDCAD: 18 cells
+  USDTRY: 18 cells
+  USDZAR: 18 cells
+  USDPLN: 18 cells
+  USDCNH: 18 cells
+  USDHKD: 18 cells
+  USDSGD: 18 cells
+  USDBRL: 16 cells
+  USDCLP: 15 cells
+  USDINR: 15 cells
+  USDTWD: 11 cells
+  USDPHP: 11 cells
+  USDKRW: 10 cells
+  CHFUSD: 9 cells
+  USDPEN: 7 cells
+
+======================================================================
+Detailed CSV report: comparison_report.csv
+======================================================================

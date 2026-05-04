@@ -1,0 +1,38 @@
+======================================================================
+CFXPP COMPARISON REPORT V2
+======================================================================
+
+Generated: 2026-04-24 14:59:48
+
+FILES COMPARED:
+  Pipeline Output: CFXPP_DATA_20260424_145819.xlsx
+  Reference:       CFXPP_DATA_20260420.xlsx
+  Archive Dir:     20260420_20260424
+
+OVERALL STATISTICS:
+  Total cells compared: 2,263
+  Matches:              2,224 (98.28%)
+  Mismatches:           1
+  Missing (in ref):     37
+  Extra (in pipeline):  1
+
+MISMATCHES BY SECTION:
+  FX Pair Positioning: 1
+
+TOP MISMATCHES (by absolute difference):
+  2026-04-22 | USDBRL REALMONEY Volume (normalized)
+    Pipeline: -160 | Reference: 350.0 | Diff: -510.0
+    Source: Export_04-24-2026_14_28_17.xlsx
+
+MISSING CELLS BY CURRENCY PAIR:
+  GBPUSD: 10 cells [NO SOURCE FILES]
+  USDCAD: 10 cells [NO SOURCE FILES]
+  USDCLP: 9 cells [NO SOURCE FILES]
+  USDTRY: 8 cells [NO SOURCE FILES]
+
+EXTRA CELLS BY CURRENCY PAIR:
+  USDBRL: 1 cells
+
+======================================================================
+Detailed CSV report: comparison_report.csv
+======================================================================
