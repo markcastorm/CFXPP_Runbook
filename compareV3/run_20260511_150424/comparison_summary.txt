@@ -1,0 +1,98 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-05-11 15:04:46
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260511_150018.xlsx
+  Reference       : CFXPP_DATA_20260511.xlsx
+  Archive Dir     : 20260506_20260511
+
+OVERALL STATISTICS:
+  Total cells compared : 1,952
+  Matches              : 1,940 (99.39%)
+  Mismatches           : 6
+  Missing (in ref)     : 3
+  New values (extra)   : 3
+
+OUTPUT FILES:
+  report_mismatches.csv  (6 rows)
+  report_missing.csv     (3 rows)
+  report_new_values.csv  (3 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    EM Currency Positioning: 1
+    FX Pair Positioning: 5
+
+  By Currency Pair:
+    GBPUSD: 5
+    EM/TRY: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-05-06  Column: 186  GBPUSD | CORPORATE_REALMONEY | Volume (normalized)
+      Pipeline : 860
+      Reference: -1000.0
+      Diff     : 1860.0
+      Source   : Export_05-11-2026_14_05_45.xlsx
+    Date: 2026-05-10  Column: 186  GBPUSD | CORPORATE_REALMONEY | Volume (normalized)
+      Pipeline : 860
+      Reference: -130.0
+      Diff     : 990.0
+      Source   : Export_05-11-2026_14_05_45.xlsx
+    Date: 2026-05-11  Column: 186  GBPUSD | CORPORATE_REALMONEY | Volume (normalized)
+      Pipeline : 1000
+      Reference: 50.0
+      Diff     : 950.0
+      Source   : Export_05-11-2026_14_05_45.xlsx
+    Date: 2026-05-08  Column: 186  GBPUSD | CORPORATE_REALMONEY | Volume (normalized)
+      Pipeline : 780
+      Reference: -120.0
+      Diff     : 900.0
+      Source   : Export_05-11-2026_14_05_45.xlsx
+    Date: 2026-05-07  Column: 186  GBPUSD | CORPORATE_REALMONEY | Volume (normalized)
+      Pipeline : 470
+      Reference: -130.0
+      Diff     : 600.0
+      Source   : Export_05-11-2026_14_05_45.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_05-11-2026_14_05_45.xlsx
+    Export_05-11-2026_14_09_22.xlsx
+    Export_05-11-2026_14_15_46.xlsx
+    Export_05-11-2026_14_19_41.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDPEN: 3 cells
+
+  Source files copied to  files/missing/:
+    Export_05-11-2026_14_16_32.xlsx
+    Export_05-11-2026_14_20_31.xlsx
+    Export_05-11-2026_14_21_28.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDPEN: 3 cells
+
+  Source files copied to  files/new_values/:
+    Export_05-11-2026_14_16_32.xlsx
+    Export_05-11-2026_14_20_31.xlsx
+    Export_05-11-2026_14_21_28.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

@@ -1,0 +1,50 @@
+======================================================================
+CFXPP COMPARISON REPORT V2
+======================================================================
+
+Generated: 2026-05-04 14:51:19
+
+FILES COMPARED:
+  Pipeline Output: CFXPP_DATA_20260504_144859.xlsx
+  Reference:       CFXPP_DATA_20260504.xlsx
+  Archive Dir:     20260429_20260504
+
+OVERALL STATISTICS:
+  Total cells compared: 1,932
+  Matches:              1,879 (97.26%)
+  Mismatches:           13
+  Missing (in ref):     39
+  Extra (in pipeline):  1
+
+MISMATCHES BY SECTION:
+  EM Currency Positioning: 2
+  FX Pair Positioning: 11
+
+TOP MISMATCHES (by absolute difference):
+  2026-04-30 | GBPUSD BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED Volume (normalized)
+    Pipeline: 870 | Reference: -1000.0 | Diff: 1870.0
+    Source: Export_05-04-2026_14_10_28.xlsx
+  2026-05-01 | EM/MXN HEDGEFUND Net Cumulative Positioning
+    Pipeline: 520 | Reference: -760.0 | Diff: 1280.0
+    Source: Export_05-04-2026_14_35_16.xlsx; Export_05-04-2026_14_18_45.xlsx; Export_05-04-2026_14_15_35.xlsx
+  2026-05-04 | GBPUSD BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED Volume (normalized)
+    Pipeline: 50 | Reference: -900.0 | Diff: 950.0
+    Source: Export_05-04-2026_14_10_28.xlsx
+  2026-05-03 | GBPUSD BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED Volume (normalized)
+    Pipeline: 360 | Reference: -230.0 | Diff: 590.0
+    Source: Export_05-04-2026_14_10_28.xlsx
+  2026-05-01 | GBPUSD BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED Volume (normalized)
+    Pipeline: 430 | Reference: -70.0 | Diff: 500.0
+    Source: Export_05-04-2026_14_10_28.xlsx
+
+MISSING CELLS BY CURRENCY PAIR:
+  GBPUSD: 20 cells [NO SOURCE FILES]
+  USDMXN: 10 cells
+  USDSGD: 9 cells [NO SOURCE FILES]
+
+EXTRA CELLS BY CURRENCY PAIR:
+  USDMXN: 1 cells
+
+======================================================================
+Detailed CSV report: comparison_report.csv
+======================================================================

@@ -1,0 +1,103 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-05-04 14:50:28
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260504_144859.xlsx
+  Reference       : CFXPP_DATA_20260504.xlsx
+  Archive Dir     : 20260429_20260504
+
+OVERALL STATISTICS:
+  Total cells compared : 1,932
+  Matches              : 1,879 (97.26%)
+  Mismatches           : 13
+  Missing (in ref)     : 39
+  New values (extra)   : 1
+
+OUTPUT FILES:
+  report_mismatches.csv  (13 rows)
+  report_missing.csv     (39 rows)
+  report_new_values.csv  (1 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    EM Currency Positioning: 2
+    FX Pair Positioning: 11
+
+  By Currency Pair:
+    GBPUSD: 10
+    EM/SGD: 1
+    EM/MXN: 1
+    AUDUSD: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-04-30  Column: 182  GBPUSD | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Volume (normalized)
+      Pipeline : 870
+      Reference: -1000.0
+      Diff     : 1870.0
+      Source   : Export_05-04-2026_14_10_28.xlsx
+    Date: 2026-05-01  Column: 147  EM/MXN | HEDGEFUND | Net Cumulative Positioning
+      Pipeline : 520
+      Reference: -760.0
+      Diff     : 1280.0
+      Source   : Export_05-04-2026_14_35_16.xlsx; Export_05-04-2026_14_18_45.xlsx; Export_05-04-2026_14_15_35.xlsx
+    Date: 2026-05-04  Column: 182  GBPUSD | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Volume (normalized)
+      Pipeline : 50
+      Reference: -900.0
+      Diff     : 950.0
+      Source   : Export_05-04-2026_14_10_28.xlsx
+    Date: 2026-05-03  Column: 182  GBPUSD | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Volume (normalized)
+      Pipeline : 360
+      Reference: -230.0
+      Diff     : 590.0
+      Source   : Export_05-04-2026_14_10_28.xlsx
+    Date: 2026-05-01  Column: 182  GBPUSD | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Volume (normalized)
+      Pipeline : 430
+      Reference: -70.0
+      Diff     : 500.0
+      Source   : Export_05-04-2026_14_10_28.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_05-04-2026_14_03_41.xlsx
+    Export_05-04-2026_14_10_28.xlsx
+    Export_05-04-2026_14_15_00.xlsx
+    Export_05-04-2026_14_15_35.xlsx
+    Export_05-04-2026_14_15_52.xlsx
+    Export_05-04-2026_14_18_45.xlsx
+    Export_05-04-2026_14_19_16.xlsx
+    Export_05-04-2026_14_34_48.xlsx
+    Export_05-04-2026_14_35_16.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    GBPUSD: 20 cells  [NO SOURCE FILE]
+    USDMXN: 10 cells
+    USDSGD: 9 cells  [NO SOURCE FILE]
+
+  Source files copied to  files/missing/:
+    Export_05-04-2026_14_31_09.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDMXN: 1 cells
+
+  Source files copied to  files/new_values/:
+    Export_05-04-2026_14_31_09.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================
