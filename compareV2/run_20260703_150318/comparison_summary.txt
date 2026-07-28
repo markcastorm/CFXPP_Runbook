@@ -1,0 +1,47 @@
+======================================================================
+CFXPP COMPARISON REPORT V2
+======================================================================
+
+Generated: 2026-07-03 15:03:42
+
+FILES COMPARED:
+  Pipeline Output: CFXPP_DATA_20260703_150157.xlsx
+  Reference:       CFXPP_DATA_20260701 (2).xlsx
+  Archive Dir:     20260629_20260703
+
+OVERALL STATISTICS:
+  Total cells compared: 2,268
+  Matches:              2,238 (98.68%)
+  Mismatches:           2
+  Missing (in ref):     20
+  Extra (in pipeline):  8
+
+MISMATCHES BY SECTION:
+  EM Currency Positioning: 1
+  G10 Currency Positioning: 1
+
+TOP MISMATCHES (by absolute difference):
+  2026-06-30 | EM/MXN REALMONEY Net Cumulative Positioning
+    Pipeline: -1000 | Reference: -320.0 | Diff: -680.0
+    Source: Export_07-03-2026_14_52_04.xlsx; Export_07-03-2026_14_51_23.xlsx; Export_07-03-2026_14_36_51.xlsx; Export_07-03-2026_14_33_56.xlsx
+  2026-07-01 | G10/AUD HEDGEFUND Net Cumulative Positioning
+    Pipeline: 70 | Reference: -70.0 | Diff: 140.0
+    Source: Export_07-03-2026_14_49_02.xlsx; Export_07-03-2026_14_42_42.xlsx; Export_07-03-2026_14_25_45.xlsx; Export_07-03-2026_14_23_17.xlsx
+
+MISSING CELLS BY CURRENCY PAIR:
+  GBPUSD: 10 cells [NO SOURCE FILES]
+  USDTRY: 10 cells [NO SOURCE FILES]
+
+EXTRA CELLS BY CURRENCY PAIR:
+  EM/INR: 1 cells
+  EM/SGD: 1 cells
+  EM/CZK: 1 cells
+  EM/HUF: 1 cells
+  EM/TRY: 1 cells
+  EM/PLN: 1 cells
+  EM/MXN: 1 cells
+  EM/ZAR: 1 cells
+
+======================================================================
+Detailed CSV report: comparison_report.csv
+======================================================================

@@ -1,0 +1,69 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-05-15 15:06:58
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260515_150618.xlsx
+  Reference       : CFXPP_DATA_20260515.xlsx
+  Archive Dir     : 20260511_20260515
+
+OVERALL STATISTICS:
+  Total cells compared : 2,223
+  Matches              : 2,207 (99.28%)
+  Mismatches           : 1
+  Missing (in ref)     : 9
+  New values (extra)   : 6
+
+OUTPUT FILES:
+  report_mismatches.csv  (1 rows)
+  report_missing.csv     (9 rows)
+  report_new_values.csv  (6 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    G10 Currency Positioning: 1
+
+  By Currency Pair:
+    G10/JPY: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-05-14  Column: 32  G10/JPY | BANKS | Net Cumulative Positioning
+      Pipeline : 220
+      Reference: 970.0
+      Diff     : -750.0
+      Source   : Export_05-15-2026_14_56_13.xlsx; Export_05-15-2026_14_51_00.xlsx; Export_05-15-2026_14_38_01.xlsx; Export_05-15-2026_14_13_19.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_05-15-2026_14_13_19.xlsx
+    Export_05-15-2026_14_38_01.xlsx
+    Export_05-15-2026_14_51_00.xlsx
+    Export_05-15-2026_14_56_13.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDCOP: 9 cells  [NO SOURCE FILE]
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDPEN: 6 cells
+
+  Source files copied to  files/new_values/:
+    Export_05-15-2026_14_10_17.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

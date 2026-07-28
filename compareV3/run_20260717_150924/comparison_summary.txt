@@ -1,0 +1,93 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-07-17 15:09:41
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260717_150851.xlsx
+  Reference       : CFXPP_DATA_20260714 (3).xlsx
+  Archive Dir     : 20260713_20260717
+
+OVERALL STATISTICS:
+  Total cells compared : 2,247
+  Matches              : 2,230 (99.24%)
+  Mismatches           : 8
+  Missing (in ref)     : 9
+  New values (extra)   : 0
+
+OUTPUT FILES:
+  report_mismatches.csv  (8 rows)
+  report_missing.csv     (9 rows)
+  report_new_values.csv  (0 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    FX Pair Positioning: 6
+    G10 Currency Positioning: 2
+
+  By Currency Pair:
+    USDMXN: 4
+    G10/NOK: 2
+    USDKRW: 2
+
+  Top mismatches (by absolute difference):
+    Date: 2026-07-14  Column: 74  G10/NOK | REALMONEY | Net Cumulative Positioning
+      Pipeline : -80
+      Reference: -1000.0
+      Diff     : 920.0
+      Source   : Export_07-17-2026_15_00_14.xlsx; Export_07-17-2026_14_44_50.xlsx; Export_07-17-2026_14_34_02.xlsx; Export_07-17-2026_14_22_21.xlsx
+    Date: 2026-07-14  Column: 476  USDKRW | BANKS | Volume (normalized)
+      Pipeline : -520
+      Reference: 70.0
+      Diff     : -590.0
+      Source   : Export_07-17-2026_14_33_08.xlsx
+    Date: 2026-07-14  Column: 254  USDMXN | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Volume (normalized)
+      Pipeline : -780
+      Reference: -200.0
+      Diff     : -580.0
+      Source   : Export_07-17-2026_14_23_44.xlsx; Export_07-17-2026_14_22_45.xlsx
+    Date: 2026-07-15  Column: 254  USDMXN | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Volume (normalized)
+      Pipeline : -850
+      Reference: -510.0
+      Diff     : -340.0
+      Source   : Export_07-17-2026_14_23_44.xlsx; Export_07-17-2026_14_22_45.xlsx
+    Date: 2026-07-16  Column: 254  USDMXN | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Volume (normalized)
+      Pipeline : -920
+      Reference: -730.0
+      Diff     : -190.0
+      Source   : Export_07-17-2026_14_23_44.xlsx; Export_07-17-2026_14_22_45.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_07-17-2026_14_21_15.xlsx
+    Export_07-17-2026_14_22_21.xlsx
+    Export_07-17-2026_14_22_45.xlsx
+    Export_07-17-2026_14_23_44.xlsx
+    Export_07-17-2026_14_33_08.xlsx
+    Export_07-17-2026_14_34_02.xlsx
+    Export_07-17-2026_14_35_23.xlsx
+    Export_07-17-2026_14_43_35.xlsx
+    Export_07-17-2026_14_44_50.xlsx
+    Export_07-17-2026_15_00_14.xlsx
+    Export_07-17-2026_15_01_26.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDPHP: 6 cells  [NO SOURCE FILE]
+    USDKRW: 3 cells
+
+  Source files copied to  files/missing/:
+    Export_07-17-2026_14_33_08.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

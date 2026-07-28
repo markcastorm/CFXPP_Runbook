@@ -1,0 +1,143 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-06-05 15:36:10
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260605_153536.xlsx
+  Reference       : CFXPP_DATA_20260605.xlsx
+  Archive Dir     : 20260601_20260605
+
+OVERALL STATISTICS:
+  Total cells compared : 2,256
+  Matches              : 2,119 (93.93%)
+  Mismatches           : 4
+  Missing (in ref)     : 90
+  New values (extra)   : 43
+
+OUTPUT FILES:
+  report_mismatches.csv  (4 rows)
+  report_missing.csv     (90 rows)
+  report_new_values.csv  (43 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    FX Pair Positioning: 3
+    G10 Currency Positioning: 1
+
+  By Currency Pair:
+    USDMXN: 3
+    G10/EUR: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-06-04  Column: 13  G10/EUR | BANKS_BROKER | Net Cumulative Positioning
+      Pipeline : 240
+      Reference: 60.0
+      Diff     : 180.0
+      Source   : Export_06-05-2026_14_35_13.xlsx; Export_06-05-2026_14_12_17.xlsx; Export_06-05-2026_14_07_26.xlsx
+    Date: 2026-06-01  Column: 254  USDMXN | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Volume (normalized)
+      Pipeline : -200
+      Reference: -180.0
+      Diff     : -20.0
+      Source   : Export_06-05-2026_14_23_45.xlsx; Export_06-05-2026_14_21_23.xlsx
+    Date: 2026-06-03  Column: 254  USDMXN | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Volume (normalized)
+      Pipeline : -640
+      Reference: -630.0
+      Diff     : -10.0
+      Source   : Export_06-05-2026_14_23_45.xlsx; Export_06-05-2026_14_21_23.xlsx
+    Date: 2026-06-04  Column: 254  USDMXN | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Volume (normalized)
+      Pipeline : -980
+      Reference: -990.0
+      Diff     : 10.0
+      Source   : Export_06-05-2026_14_23_45.xlsx; Export_06-05-2026_14_21_23.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_06-05-2026_14_07_26.xlsx
+    Export_06-05-2026_14_12_17.xlsx
+    Export_06-05-2026_14_21_23.xlsx
+    Export_06-05-2026_14_23_45.xlsx
+    Export_06-05-2026_14_35_13.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    G10/USD: 9 cells
+    G10/EUR: 9 cells
+    G10/AUD: 9 cells
+    G10/NZD: 9 cells
+    G10/NOK: 9 cells
+    G10/CAD: 9 cells
+    G10/SEK: 9 cells
+    G10/JPY: 9 cells
+    G10/CHF: 9 cells
+    G10/GBP: 9 cells
+
+  Source files copied to  files/missing/:
+    Export_06-05-2026_14_06_18.xlsx
+    Export_06-05-2026_14_07_26.xlsx
+    Export_06-05-2026_14_09_41.xlsx
+    Export_06-05-2026_14_10_20.xlsx
+    Export_06-05-2026_14_10_22.xlsx
+    Export_06-05-2026_14_10_51.xlsx
+    Export_06-05-2026_14_11_29.xlsx
+    Export_06-05-2026_14_12_03.xlsx
+    Export_06-05-2026_14_12_17.xlsx
+    Export_06-05-2026_14_12_39.xlsx
+    Export_06-05-2026_14_13_13.xlsx
+    Export_06-05-2026_14_13_52.xlsx
+    Export_06-05-2026_14_16_05.xlsx
+    Export_06-05-2026_14_16_52.xlsx
+    Export_06-05-2026_14_18_12.xlsx
+    Export_06-05-2026_14_19_09.xlsx
+    Export_06-05-2026_14_19_56.xlsx
+    Export_06-05-2026_14_21_21.xlsx
+    Export_06-05-2026_14_34_38.xlsx
+    Export_06-05-2026_14_35_13.xlsx
+    Export_06-05-2026_14_36_08.xlsx
+    Export_06-05-2026_14_36_48.xlsx
+    Export_06-05-2026_14_37_22.xlsx
+    Export_06-05-2026_14_38_00.xlsx
+    Export_06-05-2026_14_38_37.xlsx
+    Export_06-05-2026_14_39_14.xlsx
+    Export_06-05-2026_14_39_45.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDJPY: 24 cells
+    CHFUSD: 15 cells
+    USDMXN: 4 cells
+
+  Source files copied to  files/new_values/:
+    Export_06-05-2026_14_17_44.xlsx
+    Export_06-05-2026_14_19_23.xlsx
+    Export_06-05-2026_14_19_53.xlsx
+    Export_06-05-2026_14_21_04.xlsx
+    Export_06-05-2026_14_21_23.xlsx
+    Export_06-05-2026_14_21_36.xlsx
+    Export_06-05-2026_14_23_45.xlsx
+    Export_06-05-2026_14_55_46.xlsx
+    Export_06-05-2026_15_00_56.xlsx
+    Export_06-05-2026_15_01_36.xlsx
+    Export_06-05-2026_15_03_05.xlsx
+    Export_06-05-2026_15_05_48.xlsx
+    Export_06-05-2026_15_07_14.xlsx
+    Export_06-05-2026_15_07_41.xlsx
+    Export_06-05-2026_15_08_24.xlsx
+    Export_06-05-2026_15_08_49.xlsx
+    Export_06-05-2026_15_09_40.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

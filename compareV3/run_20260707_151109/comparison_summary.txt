@@ -1,0 +1,89 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-07-07 15:11:29
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260707_151028.xlsx
+  Reference       : CFXPP_DATA_20260706 (1).xlsx
+  Archive Dir     : 20260702_20260707
+
+OVERALL STATISTICS:
+  Total cells compared : 1,908
+  Matches              : 1,612 (84.49%)
+  Mismatches           : 8
+  Missing (in ref)     : 288
+  New values (extra)   : 0
+
+OUTPUT FILES:
+  report_mismatches.csv  (8 rows)
+  report_missing.csv     (288 rows)
+  report_new_values.csv  (0 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    FX Pair Positioning: 6
+    G10 Currency Positioning: 2
+
+  By Currency Pair:
+    USDMXN: 6
+    G10/NZD: 1
+    G10/JPY: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-07-05  Column: 256  USDMXN | BANKS_BROKER | Volume (normalized)
+      Pipeline : 30
+      Reference: 390.0
+      Diff     : -360.0
+      Source   : Export_07-07-2026_14_31_30.xlsx; Export_07-07-2026_14_27_23.xlsx
+    Date: 2026-07-03  Column: 256  USDMXN | BANKS_BROKER | Volume (normalized)
+      Pipeline : 100
+      Reference: 430.0
+      Diff     : -330.0
+      Source   : Export_07-07-2026_14_31_30.xlsx; Export_07-07-2026_14_27_23.xlsx
+    Date: 2026-07-02  Column: 256  USDMXN | BANKS_BROKER | Volume (normalized)
+      Pipeline : 360
+      Reference: 580.0
+      Diff     : -220.0
+      Source   : Export_07-07-2026_14_31_30.xlsx; Export_07-07-2026_14_27_23.xlsx
+    Date: 2026-07-03  Column: 78  G10/JPY | REALMONEY | Net Cumulative Positioning
+      Pipeline : -340
+      Reference: -130.0
+      Diff     : -210.0
+      Source   : Export_07-07-2026_14_59_21.xlsx; Export_07-07-2026_14_54_00.xlsx; Export_07-07-2026_14_15_34.xlsx
+    Date: 2026-07-03  Column: 76  G10/NZD | REALMONEY | Net Cumulative Positioning
+      Pipeline : -10
+      Reference: 20.0
+      Diff     : -30.0
+      Source   : Export_07-07-2026_14_59_21.xlsx; Export_07-07-2026_14_54_00.xlsx; Export_07-07-2026_14_15_34.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_07-07-2026_14_15_34.xlsx
+    Export_07-07-2026_14_27_23.xlsx
+    Export_07-07-2026_14_28_51.xlsx
+    Export_07-07-2026_14_31_30.xlsx
+    Export_07-07-2026_14_54_00.xlsx
+    Export_07-07-2026_14_59_21.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDCAD: 89 cells  [NO SOURCE FILE]
+    USDPLN: 78 cells  [NO SOURCE FILE]
+    USDCNH: 78 cells  [NO SOURCE FILE]
+    USDBRL: 27 cells  [NO SOURCE FILE]
+    USDMXN: 10 cells  [NO SOURCE FILE]
+    USDPEN: 6 cells  [NO SOURCE FILE]
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

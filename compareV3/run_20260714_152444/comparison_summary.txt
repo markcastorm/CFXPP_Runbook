@@ -1,0 +1,100 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-07-14 15:24:56
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260714_152336.xlsx
+  Reference       : CFXPP_DATA_20260714.xlsx
+  Archive Dir     : 20260709_20260714
+
+OVERALL STATISTICS:
+  Total cells compared : 1,896
+  Matches              : 1,583 (83.49%)
+  Mismatches           : 6
+  Missing (in ref)     : 304
+  New values (extra)   : 3
+
+OUTPUT FILES:
+  report_mismatches.csv  (6 rows)
+  report_missing.csv     (304 rows)
+  report_new_values.csv  (3 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    FX Pair Positioning: 6
+
+  By Currency Pair:
+    AUDUSD: 4
+    CHFUSD: 2
+
+  Top mismatches (by absolute difference):
+    Date: 2026-07-14  Column: 212  AUDUSD | HEDGEFUND | Volume (normalized)
+      Pipeline : 1000
+      Reference: -740.0
+      Diff     : 1740.0
+      Source   : Export_07-14-2026_14_16_36.xlsx
+    Date: 2026-07-10  Column: 212  AUDUSD | HEDGEFUND | Volume (normalized)
+      Pipeline : 680
+      Reference: -950.0
+      Diff     : 1630.0
+      Source   : Export_07-14-2026_14_16_36.xlsx
+    Date: 2026-07-13  Column: 212  AUDUSD | HEDGEFUND | Volume (normalized)
+      Pipeline : 480
+      Reference: -1000.0
+      Diff     : 1480.0
+      Source   : Export_07-14-2026_14_16_36.xlsx
+    Date: 2026-07-09  Column: 212  AUDUSD | HEDGEFUND | Volume (normalized)
+      Pipeline : 70
+      Reference: -640.0
+      Diff     : 710.0
+      Source   : Export_07-14-2026_14_16_36.xlsx
+    Date: 2026-07-13  Column: 218  CHFUSD | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Volume (normalized)
+      Pipeline : 590
+      Reference: 1000.0
+      Diff     : -410.0
+      Source   : Export_07-14-2026_14_09_08.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_07-14-2026_14_09_08.xlsx
+    Export_07-14-2026_14_16_36.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDZAR: 89 cells  [NO SOURCE FILE]
+    USDTRY: 81 cells  [NO SOURCE FILE]
+    USDPLN: 73 cells  [NO SOURCE FILE]
+    USDPEN: 36 cells  [NO SOURCE FILE]
+    USDPHP: 24 cells  [NO SOURCE FILE]
+    USDKRW: 1 cells
+
+  Source files copied to  files/missing/:
+    Export_07-14-2026_14_51_57.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    AUDUSD: 1 cells
+    CHFUSD: 1 cells
+    USDKRW: 1 cells
+
+  Source files copied to  files/new_values/:
+    Export_07-14-2026_14_09_08.xlsx
+    Export_07-14-2026_14_16_36.xlsx
+    Export_07-14-2026_14_51_57.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

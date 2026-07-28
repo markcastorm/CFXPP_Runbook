@@ -1,0 +1,130 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-06-01 15:00:23
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260601_145913.xlsx
+  Reference       : CFXPP_DATA_20260601.xlsx
+  Archive Dir     : 20260527_20260601
+
+OVERALL STATISTICS:
+  Total cells compared : 1,736
+  Matches              : 1,514 (87.21%)
+  Mismatches           : 13
+  Missing (in ref)     : 205
+  New values (extra)   : 4
+
+OUTPUT FILES:
+  report_mismatches.csv  (13 rows)
+  report_missing.csv     (205 rows)
+  report_new_values.csv  (4 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    EM Currency Positioning: 1
+    FX Pair Positioning: 4
+    G10 Currency Positioning: 8
+
+  By Currency Pair:
+    USDZAR: 4
+    G10/USD: 2
+    EM/INR: 1
+    G10/EUR: 1
+    G10/AUD: 1
+    G10/NZD: 1
+    G10/NOK: 1
+    G10/CHF: 1
+    G10/GBP: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-05-28  Column: 394  USDZAR | REALMONEY | Volume (normalized)
+      Pipeline : -1000
+      Reference: 1000.0
+      Diff     : -2000.0
+      Source   : Export_06-01-2026_14_09_07.xlsx
+    Date: 2026-06-01  Column: 394  USDZAR | REALMONEY | Volume (normalized)
+      Pipeline : -990
+      Reference: 850.0
+      Diff     : -1840.0
+      Source   : Export_06-01-2026_14_09_07.xlsx
+    Date: 2026-05-29  Column: 394  USDZAR | REALMONEY | Volume (normalized)
+      Pipeline : -1000
+      Reference: 730.0
+      Diff     : -1730.0
+      Source   : Export_06-01-2026_14_09_07.xlsx
+    Date: 2026-05-28  Column: 156  EM/INR | UNCLASSIFIED | Net Cumulative Positioning
+      Pipeline : 370
+      Reference: -1000.0
+      Diff     : 1370.0
+      Source   : Export_06-01-2026_14_47_37.xlsx; Export_06-01-2026_14_27_37.xlsx; Export_06-01-2026_14_15_51.xlsx
+    Date: 2026-05-28  Column: 12  G10/USD | BANKS_BROKER | Net Cumulative Positioning
+      Pipeline : 1000
+      Reference: 170.0
+      Diff     : 830.0
+      Source   : Export_06-01-2026_14_40_17.xlsx; Export_06-01-2026_14_08_01.xlsx; Export_06-01-2026_14_05_27.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_06-01-2026_14_04_28.xlsx
+    Export_06-01-2026_14_05_27.xlsx
+    Export_06-01-2026_14_05_39.xlsx
+    Export_06-01-2026_14_05_59.xlsx
+    Export_06-01-2026_14_08_01.xlsx
+    Export_06-01-2026_14_09_07.xlsx
+    Export_06-01-2026_14_15_51.xlsx
+    Export_06-01-2026_14_27_37.xlsx
+    Export_06-01-2026_14_39_12.xlsx
+    Export_06-01-2026_14_40_17.xlsx
+    Export_06-01-2026_14_47_37.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDCAD: 79 cells  [NO SOURCE FILE]
+    USDMXN: 75 cells  [NO SOURCE FILE]
+    USDBRL: 23 cells  [NO SOURCE FILE]
+    USDZAR: 8 cells  [NO SOURCE FILE]
+    USDCNH: 8 cells  [NO SOURCE FILE]
+    USDKRW: 4 cells
+    EM/MXN: 1 cells
+    EM/PLN: 1 cells
+    EM/ZAR: 1 cells
+    EM/HUF: 1 cells
+    EM/SGD: 1 cells
+    EM/CZK: 1 cells
+    EM/INR: 1 cells
+    EM/TRY: 1 cells
+
+  Source files copied to  files/missing/:
+    Export_06-01-2026_14_12_12.xlsx
+    Export_06-01-2026_14_20_47.xlsx
+    Export_06-01-2026_14_23_12.xlsx
+    Export_06-01-2026_14_25_35.xlsx
+    Export_06-01-2026_14_28_13.xlsx
+    Export_06-01-2026_14_28_19.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDKRW: 4 cells
+
+  Source files copied to  files/new_values/:
+    Export_06-01-2026_14_23_12.xlsx
+    Export_06-01-2026_14_25_35.xlsx
+    Export_06-01-2026_14_28_13.xlsx
+    Export_06-01-2026_14_28_19.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

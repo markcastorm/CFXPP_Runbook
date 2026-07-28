@@ -1,0 +1,110 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-06-30 15:00:22
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260630_145905.xlsx
+  Reference       : CFXPP_DATA_20260630.xlsx
+  Archive Dir     : 20260625_20260630
+
+OVERALL STATISTICS:
+  Total cells compared : 1,980
+  Matches              : 1,930 (97.47%)
+  Mismatches           : 26
+  Missing (in ref)     : 22
+  New values (extra)   : 2
+
+OUTPUT FILES:
+  report_mismatches.csv  (26 rows)
+  report_missing.csv     (22 rows)
+  report_new_values.csv  (2 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    FX Pair Positioning: 25
+    G10 Currency Positioning: 1
+
+  By Currency Pair:
+    USDHKD: 23
+    USDMXN: 2
+    G10/AUD: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-06-30  Column: 434  USDHKD | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Volume (normalized)
+      Pipeline : 1000
+      Reference: -1000.0
+      Diff     : 2000.0
+      Source   : Export_06-30-2026_14_36_14.xlsx
+    Date: 2026-06-29  Column: 444  USDHKD | CORPORATE | Volume (normalized)
+      Pipeline : -850
+      Reference: 1000.0
+      Diff     : -1850.0
+      Source   : Export_06-30-2026_14_37_47.xlsx
+    Date: 2026-06-29  Column: 434  USDHKD | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Volume (normalized)
+      Pipeline : 990
+      Reference: -740.0
+      Diff     : 1730.0
+      Source   : Export_06-30-2026_14_36_14.xlsx
+    Date: 2026-06-30  Column: 438  USDHKD | CORPORATE_REALMONEY | Volume (normalized)
+      Pipeline : -1000
+      Reference: 690.0
+      Diff     : -1690.0
+      Source   : Export_06-30-2026_14_36_43.xlsx
+    Date: 2026-06-30  Column: 442  USDHKD | BROKER | Volume (normalized)
+      Pipeline : 690
+      Reference: -1000.0
+      Diff     : 1690.0
+      Source   : Export_06-30-2026_14_37_39.xlsx; Export_06-30-2026_14_37_26.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_06-30-2026_14_22_52.xlsx
+    Export_06-30-2026_14_30_25.xlsx
+    Export_06-30-2026_14_36_14.xlsx
+    Export_06-30-2026_14_36_34.xlsx
+    Export_06-30-2026_14_36_43.xlsx
+    Export_06-30-2026_14_36_52.xlsx
+    Export_06-30-2026_14_37_26.xlsx
+    Export_06-30-2026_14_37_39.xlsx
+    Export_06-30-2026_14_37_47.xlsx
+    Export_06-30-2026_14_46_00.xlsx
+    Export_06-30-2026_14_49_57.xlsx
+    Export_06-30-2026_14_50_21.xlsx
+    Export_06-30-2026_14_50_49.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    GBPUSD: 10 cells  [NO SOURCE FILE]
+    USDCAD: 10 cells  [NO SOURCE FILE]
+    USDMXN: 1 cells
+    USDHKD: 1 cells
+
+  Source files copied to  files/missing/:
+    Export_06-30-2026_14_37_47.xlsx
+    Export_06-30-2026_14_49_57.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDHKD: 1 cells
+    USDMXN: 1 cells
+
+  Source files copied to  files/new_values/:
+    Export_06-30-2026_14_36_14.xlsx
+    Export_06-30-2026_14_49_57.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

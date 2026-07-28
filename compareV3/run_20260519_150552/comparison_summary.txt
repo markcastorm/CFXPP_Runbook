@@ -1,0 +1,149 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-05-19 15:06:03
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260519_150433.xlsx
+  Reference       : CFXPP_DATA_20260519.xlsx
+  Archive Dir     : 20260514_20260519
+
+OVERALL STATISTICS:
+  Total cells compared : 2,060
+  Matches              : 1,474 (71.55%)
+  Mismatches           : 37
+  Missing (in ref)     : 518
+  New values (extra)   : 31
+
+OUTPUT FILES:
+  report_mismatches.csv  (37 rows)
+  report_missing.csv     (518 rows)
+  report_new_values.csv  (31 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    EM Currency Positioning: 1
+    FX Pair Positioning: 36
+
+  By Currency Pair:
+    CHFUSD: 33
+    USDSGD: 2
+    EM/TRY: 1
+    AUDUSD: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-05-19  Column: 224  CHFUSD | BANKS | Volume (normalized)
+      Pipeline : -880
+      Reference: 1000.0
+      Diff     : -1880.0
+      Source   : Export_05-19-2026_14_34_53.xlsx
+    Date: 2026-05-19  Column: 226  CHFUSD | BROKER | Volume (normalized)
+      Pipeline : 920
+      Reference: -880.0
+      Diff     : 1800.0
+      Source   : Export_05-19-2026_14_35_19.xlsx
+    Date: 2026-05-18  Column: 222  CHFUSD | CORPORATE_REALMONEY | Volume (normalized)
+      Pipeline : 750
+      Reference: -1000.0
+      Diff     : 1750.0
+      Source   : Export_05-19-2026_14_33_56.xlsx
+    Date: 2026-05-18  Column: 224  CHFUSD | BANKS | Volume (normalized)
+      Pipeline : -1000
+      Reference: 750.0
+      Diff     : -1750.0
+      Source   : Export_05-19-2026_14_34_53.xlsx
+    Date: 2026-05-19  Column: 222  CHFUSD | CORPORATE_REALMONEY | Volume (normalized)
+      Pipeline : 1000
+      Reference: -750.0
+      Diff     : 1750.0
+      Source   : Export_05-19-2026_14_33_56.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_05-19-2026_14_21_21.xlsx
+    Export_05-19-2026_14_24_41.xlsx
+    Export_05-19-2026_14_25_42.xlsx
+    Export_05-19-2026_14_32_42.xlsx
+    Export_05-19-2026_14_33_10.xlsx
+    Export_05-19-2026_14_33_56.xlsx
+    Export_05-19-2026_14_34_53.xlsx
+    Export_05-19-2026_14_35_19.xlsx
+    Export_05-19-2026_14_35_30.xlsx
+    Export_05-19-2026_14_35_43.xlsx
+    Export_05-19-2026_14_36_00.xlsx
+    Export_05-19-2026_14_44_10.xlsx
+    Export_05-19-2026_14_46_26.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDSGD: 97 cells
+    USDCNH: 87 cells  [NO SOURCE FILE]
+    USDTRY: 86 cells  [NO SOURCE FILE]
+    USDZAR: 78 cells  [NO SOURCE FILE]
+    USDPLN: 75 cells  [NO SOURCE FILE]
+    USDPEN: 44 cells  [NO SOURCE FILE]
+    USDCOP: 31 cells  [NO SOURCE FILE]
+    USDTWD: 8 cells
+    USDBRL: 6 cells
+    CHFUSD: 5 cells
+    USDCLP: 1 cells
+
+  Source files copied to  files/missing/:
+    Export_05-19-2026_14_26_46.xlsx
+    Export_05-19-2026_14_27_08.xlsx
+    Export_05-19-2026_14_27_28.xlsx
+    Export_05-19-2026_14_27_47.xlsx
+    Export_05-19-2026_14_30_58.xlsx
+    Export_05-19-2026_14_31_25.xlsx
+    Export_05-19-2026_14_31_57.xlsx
+    Export_05-19-2026_14_35_43.xlsx
+    Export_05-19-2026_14_44_10.xlsx
+    Export_05-19-2026_14_52_48.xlsx
+    Export_05-19-2026_14_53_07.xlsx
+    Export_05-19-2026_14_53_17.xlsx
+    Export_05-19-2026_14_53_36.xlsx
+    Export_05-19-2026_14_55_07.xlsx
+    Export_05-19-2026_14_55_27.xlsx
+    Export_05-19-2026_14_55_37.xlsx
+    Export_05-19-2026_14_56_45.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDSGD: 16 cells
+    USDTWD: 8 cells
+    USDBRL: 6 cells
+    USDCLP: 1 cells
+
+  Source files copied to  files/new_values/:
+    Export_05-19-2026_14_26_46.xlsx
+    Export_05-19-2026_14_27_08.xlsx
+    Export_05-19-2026_14_27_28.xlsx
+    Export_05-19-2026_14_27_47.xlsx
+    Export_05-19-2026_14_30_58.xlsx
+    Export_05-19-2026_14_31_25.xlsx
+    Export_05-19-2026_14_31_57.xlsx
+    Export_05-19-2026_14_44_10.xlsx
+    Export_05-19-2026_14_52_48.xlsx
+    Export_05-19-2026_14_53_07.xlsx
+    Export_05-19-2026_14_53_17.xlsx
+    Export_05-19-2026_14_53_36.xlsx
+    Export_05-19-2026_14_55_07.xlsx
+    Export_05-19-2026_14_55_27.xlsx
+    Export_05-19-2026_14_55_37.xlsx
+    Export_05-19-2026_14_56_45.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

@@ -1,0 +1,286 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-05-21 15:01:53
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260521_150034.xlsx
+  Reference       : CFXPP_DATA_20260521.xlsx
+  Archive Dir     : 20260515_20260521
+
+OVERALL STATISTICS:
+  Total cells compared : 2,310
+  Matches              : 1,925 (83.33%)
+  Mismatches           : 12
+  Missing (in ref)     : 6
+  New values (extra)   : 367
+
+OUTPUT FILES:
+  report_mismatches.csv  (12 rows)
+  report_missing.csv     (6 rows)
+  report_new_values.csv  (367 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    EM Currency Positioning: 1
+    FX Pair Positioning: 10
+    G10 Currency Positioning: 1
+
+  By Currency Pair:
+    USDPLN: 10
+    G10/GBP: 1
+    EM/TRY: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-05-18  Column: 414  USDPLN | UNCLASSIFIED | Volume (normalized)
+      Pipeline : -420
+      Reference: -1000.0
+      Diff     : 580.0
+      Source   : Export_05-21-2026_14_15_09.xlsx; Export_05-21-2026_14_11_55.xlsx
+    Date: 2026-05-20  Column: 414  USDPLN | UNCLASSIFIED | Volume (normalized)
+      Pipeline : -970
+      Reference: -670.0
+      Diff     : -300.0
+      Source   : Export_05-21-2026_14_15_09.xlsx; Export_05-21-2026_14_11_55.xlsx
+    Date: 2026-05-18  Column: 82  G10/GBP | UNCLASSIFIED | Net Cumulative Positioning
+      Pipeline : -240
+      Reference: 40.0
+      Diff     : -280.0
+      Source   : Export_05-21-2026_14_36_22.xlsx; Export_05-21-2026_14_22_11.xlsx; Export_05-21-2026_14_19_20.xlsx
+    Date: 2026-05-21  Column: 414  USDPLN | UNCLASSIFIED | Volume (normalized)
+      Pipeline : -1000
+      Reference: -790.0
+      Diff     : -210.0
+      Source   : Export_05-21-2026_14_15_09.xlsx; Export_05-21-2026_14_11_55.xlsx
+    Date: 2026-05-19  Column: 414  USDPLN | UNCLASSIFIED | Volume (normalized)
+      Pipeline : -700
+      Reference: -860.0
+      Diff     : 160.0
+      Source   : Export_05-21-2026_14_15_09.xlsx; Export_05-21-2026_14_11_55.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_05-21-2026_14_11_55.xlsx
+    Export_05-21-2026_14_15_09.xlsx
+    Export_05-21-2026_14_19_20.xlsx
+    Export_05-21-2026_14_22_11.xlsx
+    Export_05-21-2026_14_24_09.xlsx
+    Export_05-21-2026_14_25_12.xlsx
+    Export_05-21-2026_14_33_22.xlsx
+    Export_05-21-2026_14_36_22.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDBRL: 6 cells  [NO SOURCE FILE]
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    EURUSD: 27 cells
+    USDCLP: 23 cells
+    USDTWD: 23 cells
+    USDCOP: 20 cells
+    GBPUSD: 18 cells
+    AUDUSD: 18 cells
+    USDJPY: 18 cells
+    USDMXN: 18 cells
+    USDCAD: 18 cells
+    USDTRY: 18 cells
+    USDZAR: 18 cells
+    USDPLN: 18 cells
+    USDCNH: 18 cells
+    USDHKD: 18 cells
+    USDSGD: 18 cells
+    USDINR: 17 cells
+    USDKRW: 16 cells
+    USDBRL: 13 cells
+    USDPEN: 13 cells
+    CHFUSD: 9 cells
+    USDPHP: 8 cells
+
+  Source files copied to  files/new_values/:
+    Export_05-21-2026_13_53_29.xlsx
+    Export_05-21-2026_13_54_08.xlsx
+    Export_05-21-2026_13_54_22.xlsx
+    Export_05-21-2026_13_54_38.xlsx
+    Export_05-21-2026_13_54_45.xlsx
+    Export_05-21-2026_13_54_56.xlsx
+    Export_05-21-2026_13_55_08.xlsx
+    Export_05-21-2026_13_55_20.xlsx
+    Export_05-21-2026_13_55_32.xlsx
+    Export_05-21-2026_13_57_20.xlsx
+    Export_05-21-2026_13_57_30.xlsx
+    Export_05-21-2026_13_57_40.xlsx
+    Export_05-21-2026_13_57_55.xlsx
+    Export_05-21-2026_13_58_10.xlsx
+    Export_05-21-2026_13_58_19.xlsx
+    Export_05-21-2026_13_58_37.xlsx
+    Export_05-21-2026_13_58_44.xlsx
+    Export_05-21-2026_13_58_58.xlsx
+    Export_05-21-2026_14_00_02.xlsx
+    Export_05-21-2026_14_01_09.xlsx
+    Export_05-21-2026_14_01_56.xlsx
+    Export_05-21-2026_14_02_21.xlsx
+    Export_05-21-2026_14_02_47.xlsx
+    Export_05-21-2026_14_03_25.xlsx
+    Export_05-21-2026_14_03_58.xlsx
+    Export_05-21-2026_14_04_07.xlsx
+    Export_05-21-2026_14_04_14.xlsx
+    Export_05-21-2026_14_04_39.xlsx
+    Export_05-21-2026_14_04_50.xlsx
+    Export_05-21-2026_14_05_07.xlsx
+    Export_05-21-2026_14_05_17.xlsx
+    Export_05-21-2026_14_05_22.xlsx
+    Export_05-21-2026_14_05_29.xlsx
+    Export_05-21-2026_14_05_43.xlsx
+    Export_05-21-2026_14_05_56.xlsx
+    Export_05-21-2026_14_06_48.xlsx
+    Export_05-21-2026_14_07_05.xlsx
+    Export_05-21-2026_14_07_18.xlsx
+    Export_05-21-2026_14_07_33.xlsx
+    Export_05-21-2026_14_08_29.xlsx
+    Export_05-21-2026_14_08_50.xlsx
+    Export_05-21-2026_14_08_51.xlsx
+    Export_05-21-2026_14_09_04.xlsx
+    Export_05-21-2026_14_09_33.xlsx
+    Export_05-21-2026_14_09_41.xlsx
+    Export_05-21-2026_14_09_43.xlsx
+    Export_05-21-2026_14_09_54.xlsx
+    Export_05-21-2026_14_09_55.xlsx
+    Export_05-21-2026_14_10_07.xlsx
+    Export_05-21-2026_14_10_08.xlsx
+    Export_05-21-2026_14_10_14.xlsx
+    Export_05-21-2026_14_10_22.xlsx
+    Export_05-21-2026_14_10_34.xlsx
+    Export_05-21-2026_14_10_47.xlsx
+    Export_05-21-2026_14_11_01.xlsx
+    Export_05-21-2026_14_11_15.xlsx
+    Export_05-21-2026_14_11_47.xlsx
+    Export_05-21-2026_14_11_55.xlsx
+    Export_05-21-2026_14_12_01.xlsx
+    Export_05-21-2026_14_12_22.xlsx
+    Export_05-21-2026_14_12_35.xlsx
+    Export_05-21-2026_14_12_36.xlsx
+    Export_05-21-2026_14_13_01.xlsx
+    Export_05-21-2026_14_13_21.xlsx
+    Export_05-21-2026_14_13_35.xlsx
+    Export_05-21-2026_14_14_26.xlsx
+    Export_05-21-2026_14_14_41.xlsx
+    Export_05-21-2026_14_14_57.xlsx
+    Export_05-21-2026_14_15_09.xlsx
+    Export_05-21-2026_14_15_37.xlsx
+    Export_05-21-2026_14_15_51.xlsx
+    Export_05-21-2026_14_16_07.xlsx
+    Export_05-21-2026_14_16_20.xlsx
+    Export_05-21-2026_14_17_34.xlsx
+    Export_05-21-2026_14_17_44.xlsx
+    Export_05-21-2026_14_17_48.xlsx
+    Export_05-21-2026_14_18_03.xlsx
+    Export_05-21-2026_14_18_15.xlsx
+    Export_05-21-2026_14_18_33.xlsx
+    Export_05-21-2026_14_18_46.xlsx
+    Export_05-21-2026_14_18_52.xlsx
+    Export_05-21-2026_14_19_12.xlsx
+    Export_05-21-2026_14_19_56.xlsx
+    Export_05-21-2026_14_20_14.xlsx
+    Export_05-21-2026_14_20_23.xlsx
+    Export_05-21-2026_14_20_32.xlsx
+    Export_05-21-2026_14_21_44.xlsx
+    Export_05-21-2026_14_23_40.xlsx
+    Export_05-21-2026_14_24_13.xlsx
+    Export_05-21-2026_14_24_39.xlsx
+    Export_05-21-2026_14_24_43.xlsx
+    Export_05-21-2026_14_24_58.xlsx
+    Export_05-21-2026_14_25_20.xlsx
+    Export_05-21-2026_14_25_33.xlsx
+    Export_05-21-2026_14_25_41.xlsx
+    Export_05-21-2026_14_26_09.xlsx
+    Export_05-21-2026_14_26_29.xlsx
+    Export_05-21-2026_14_26_45.xlsx
+    Export_05-21-2026_14_26_47.xlsx
+    Export_05-21-2026_14_27_14.xlsx
+    Export_05-21-2026_14_27_18.xlsx
+    Export_05-21-2026_14_27_36.xlsx
+    Export_05-21-2026_14_27_39.xlsx
+    Export_05-21-2026_14_27_56.xlsx
+    Export_05-21-2026_14_28_16.xlsx
+    Export_05-21-2026_14_28_29.xlsx
+    Export_05-21-2026_14_28_34.xlsx
+    Export_05-21-2026_14_28_57.xlsx
+    Export_05-21-2026_14_29_09.xlsx
+    Export_05-21-2026_14_29_40.xlsx
+    Export_05-21-2026_14_30_05.xlsx
+    Export_05-21-2026_14_30_15.xlsx
+    Export_05-21-2026_14_30_30.xlsx
+    Export_05-21-2026_14_30_50.xlsx
+    Export_05-21-2026_14_30_53.xlsx
+    Export_05-21-2026_14_31_11.xlsx
+    Export_05-21-2026_14_31_16.xlsx
+    Export_05-21-2026_14_31_42.xlsx
+    Export_05-21-2026_14_31_56.xlsx
+    Export_05-21-2026_14_32_06.xlsx
+    Export_05-21-2026_14_32_13.xlsx
+    Export_05-21-2026_14_32_33.xlsx
+    Export_05-21-2026_14_32_45.xlsx
+    Export_05-21-2026_14_32_53.xlsx
+    Export_05-21-2026_14_33_06.xlsx
+    Export_05-21-2026_14_33_14.xlsx
+    Export_05-21-2026_14_34_01.xlsx
+    Export_05-21-2026_14_34_06.xlsx
+    Export_05-21-2026_14_34_31.xlsx
+    Export_05-21-2026_14_35_01.xlsx
+    Export_05-21-2026_14_35_07.xlsx
+    Export_05-21-2026_14_35_21.xlsx
+    Export_05-21-2026_14_35_33.xlsx
+    Export_05-21-2026_14_36_07.xlsx
+    Export_05-21-2026_14_36_21.xlsx
+    Export_05-21-2026_14_36_45.xlsx
+    Export_05-21-2026_14_37_50.xlsx
+    Export_05-21-2026_14_38_29.xlsx
+    Export_05-21-2026_14_39_11.xlsx
+    Export_05-21-2026_14_39_33.xlsx
+    Export_05-21-2026_14_40_04.xlsx
+    Export_05-21-2026_14_41_49.xlsx
+    Export_05-21-2026_14_42_12.xlsx
+    Export_05-21-2026_14_42_31.xlsx
+    Export_05-21-2026_14_43_00.xlsx
+    Export_05-21-2026_14_43_12.xlsx
+    Export_05-21-2026_14_43_27.xlsx
+    Export_05-21-2026_14_43_44.xlsx
+    Export_05-21-2026_14_44_02.xlsx
+    Export_05-21-2026_14_44_26.xlsx
+    Export_05-21-2026_14_44_43.xlsx
+    Export_05-21-2026_14_45_00.xlsx
+    Export_05-21-2026_14_45_23.xlsx
+    Export_05-21-2026_14_45_46.xlsx
+    Export_05-21-2026_14_47_13.xlsx
+    Export_05-21-2026_14_47_39.xlsx
+    Export_05-21-2026_14_48_18.xlsx
+    Export_05-21-2026_14_48_43.xlsx
+    Export_05-21-2026_14_49_20.xlsx
+    Export_05-21-2026_14_49_48.xlsx
+    Export_05-21-2026_14_50_06.xlsx
+    Export_05-21-2026_14_50_13.xlsx
+    Export_05-21-2026_14_50_31.xlsx
+    Export_05-21-2026_14_50_46.xlsx
+    Export_05-21-2026_14_51_37.xlsx
+    Export_05-21-2026_14_52_28.xlsx
+    Export_05-21-2026_14_52_59.xlsx
+    Export_05-21-2026_14_53_18.xlsx
+    Export_05-21-2026_14_55_24.xlsx
+    Export_05-21-2026_14_55_43.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

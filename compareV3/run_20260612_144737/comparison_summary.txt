@@ -1,0 +1,80 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-06-12 14:47:48
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260612_144645.xlsx
+  Reference       : CFXPP_DATA_20260612.xlsx
+  Archive Dir     : 20260608_20260612
+
+OVERALL STATISTICS:
+  Total cells compared : 2,258
+  Matches              : 2,251 (99.69%)
+  Mismatches           : 5
+  Missing (in ref)     : 0
+  New values (extra)   : 2
+
+OUTPUT FILES:
+  report_mismatches.csv  (5 rows)
+  report_missing.csv     (0 rows)
+  report_new_values.csv  (2 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    FX Pair Positioning: 5
+
+  By Currency Pair:
+    USDCAD: 5
+
+  Top mismatches (by absolute difference):
+    Date: 2026-06-08  Column: 282  USDCAD | CORPORATE | Volume (normalized)
+      Pipeline : -980
+      Reference: 1000.0
+      Diff     : -1980.0
+      Source   : Export_06-12-2026_14_24_03.xlsx
+    Date: 2026-06-09  Column: 282  USDCAD | CORPORATE | Volume (normalized)
+      Pipeline : -1000
+      Reference: 480.0
+      Diff     : -1480.0
+      Source   : Export_06-12-2026_14_24_03.xlsx
+    Date: 2026-06-10  Column: 282  USDCAD | CORPORATE | Volume (normalized)
+      Pipeline : 730
+      Reference: -10.0
+      Diff     : 740.0
+      Source   : Export_06-12-2026_14_24_03.xlsx
+    Date: 2026-06-11  Column: 282  USDCAD | CORPORATE | Volume (normalized)
+      Pipeline : 290
+      Reference: -160.0
+      Diff     : 450.0
+      Source   : Export_06-12-2026_14_24_03.xlsx
+    Date: 2026-06-12  Column: 282  USDCAD | CORPORATE | Volume (normalized)
+      Pipeline : 290
+      Reference: 0.0
+      Diff     : 290.0
+      Source   : Export_06-12-2026_14_24_03.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_06-12-2026_14_24_03.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDKRW: 2 cells
+
+  Source files copied to  files/new_values/:
+    Export_06-12-2026_14_28_27.xlsx
+    Export_06-12-2026_14_29_04.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

@@ -1,0 +1,123 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-07-21 14:48:29
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260721_144705.xlsx
+  Reference       : CFXPP_DATA_20260714.xlsx
+  Archive Dir     : 20260716_20260721
+
+OVERALL STATISTICS:
+  Total cells compared : 1,996
+  Matches              : 1,629 (81.61%)
+  Mismatches           : 35
+  Missing (in ref)     : 330
+  New values (extra)   : 2
+
+OUTPUT FILES:
+  report_mismatches.csv  (35 rows)
+  report_missing.csv     (330 rows)
+  report_new_values.csv  (2 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    FX Pair Positioning: 34
+    G10 Currency Positioning: 1
+
+  By Currency Pair:
+    AUDUSD: 17
+    GBPUSD: 16
+    G10/AUD: 1
+    USDJPY: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-07-19  Column: 190  GBPUSD | BROKER | Volume (normalized)
+      Pipeline : 970
+      Reference: -1000.0
+      Diff     : 1970.0
+      Source   : Export_07-21-2026_14_17_58.xlsx
+    Date: 2026-07-19  Column: 208  AUDUSD | BROKER | Volume (normalized)
+      Pipeline : 840
+      Reference: -1000.0
+      Diff     : 1840.0
+      Source   : Export_07-21-2026_14_20_05.xlsx
+    Date: 2026-07-19  Column: 212  AUDUSD | HEDGEFUND | Volume (normalized)
+      Pipeline : 780
+      Reference: -1000.0
+      Diff     : 1780.0
+      Source   : Export_07-21-2026_14_20_22.xlsx
+    Date: 2026-07-19  Column: 192  GBPUSD | CORPORATE | Volume (normalized)
+      Pipeline : 730
+      Reference: -1000.0
+      Diff     : 1730.0
+      Source   : Export_07-21-2026_14_18_06.xlsx
+    Date: 2026-07-19  Column: 183  GBPUSD | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Closing Price
+      Pipeline : 1.3446
+      Reference: -1000.0
+      Diff     : 1001.3446
+      Source   : Export_07-21-2026_14_16_45.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_07-21-2026_14_15_57.xlsx
+    Export_07-21-2026_14_16_45.xlsx
+    Export_07-21-2026_14_17_11.xlsx
+    Export_07-21-2026_14_17_29.xlsx
+    Export_07-21-2026_14_17_38.xlsx
+    Export_07-21-2026_14_17_58.xlsx
+    Export_07-21-2026_14_18_06.xlsx
+    Export_07-21-2026_14_18_19.xlsx
+    Export_07-21-2026_14_18_28.xlsx
+    Export_07-21-2026_14_18_40.xlsx
+    Export_07-21-2026_14_19_13.xlsx
+    Export_07-21-2026_14_19_21.xlsx
+    Export_07-21-2026_14_19_32.xlsx
+    Export_07-21-2026_14_19_41.xlsx
+    Export_07-21-2026_14_19_50.xlsx
+    Export_07-21-2026_14_20_05.xlsx
+    Export_07-21-2026_14_20_13.xlsx
+    Export_07-21-2026_14_20_22.xlsx
+    Export_07-21-2026_14_20_33.xlsx
+    Export_07-21-2026_14_20_45.xlsx
+    Export_07-21-2026_14_29_40.xlsx
+    Export_07-21-2026_14_30_00.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDZAR: 84 cells  [NO SOURCE FILE]
+    USDPLN: 82 cells  [NO SOURCE FILE]
+    USDTRY: 81 cells  [NO SOURCE FILE]
+    USDPEN: 53 cells  [NO SOURCE FILE]
+    USDHKD: 10 cells  [NO SOURCE FILE]
+    USDTWD: 10 cells  [NO SOURCE FILE]
+    USDINR: 8 cells  [NO SOURCE FILE]
+    GBPUSD: 1 cells
+    AUDUSD: 1 cells
+
+  Source files copied to  files/missing/:
+    Export_07-21-2026_14_18_28.xlsx
+    Export_07-21-2026_14_20_33.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDHKD: 2 cells
+
+  Source files copied to  files/new_values/:
+    Export_07-21-2026_14_05_07.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

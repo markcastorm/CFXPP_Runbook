@@ -1,0 +1,236 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-05-27 14:56:40
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260527_145506.xlsx
+  Reference       : CFXPP_DATA_20260527.xlsx
+  Archive Dir     : 20260522_20260527
+
+OVERALL STATISTICS:
+  Total cells compared : 2,033
+  Matches              : 1,703 (83.77%)
+  Mismatches           : 158
+  Missing (in ref)     : 95
+  New values (extra)   : 77
+
+OUTPUT FILES:
+  report_mismatches.csv  (158 rows)
+  report_missing.csv     (95 rows)
+  report_new_values.csv  (77 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    FX Pair Positioning: 157
+    G10 Currency Positioning: 1
+
+  By Currency Pair:
+    USDMXN: 53
+    USDCAD: 33
+    USDCLP: 27
+    USDCOP: 27
+    AUDUSD: 9
+    USDBRL: 8
+    G10/AUD: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-05-25  Column: 268  USDMXN | REALMONEY | Volume (normalized)
+      Pipeline : -600
+      Reference: 950.0
+      Diff     : -1550.0
+      Source   : Export_05-27-2026_14_29_05.xlsx
+    Date: 2026-05-26  Column: 282  USDCAD | CORPORATE | Volume (normalized)
+      Pipeline : -1000
+      Reference: 530.0
+      Diff     : -1530.0
+      Source   : Export_05-27-2026_14_32_41.xlsx
+    Date: 2026-05-25  Column: 276  USDCAD | CORPORATE_REALMONEY | Volume (normalized)
+      Pipeline : 340
+      Reference: -1000.0
+      Diff     : 1340.0
+      Source   : Export_05-27-2026_14_31_06.xlsx
+    Date: 2026-05-26  Column: 276  USDCAD | CORPORATE_REALMONEY | Volume (normalized)
+      Pipeline : -1000
+      Reference: 280.0
+      Diff     : -1280.0
+      Source   : Export_05-27-2026_14_31_06.xlsx
+    Date: 2026-05-25  Column: 260  USDMXN | BANKS | Volume (normalized)
+      Pipeline : 270
+      Reference: -1000.0
+      Diff     : 1270.0
+      Source   : Export_05-27-2026_14_27_03.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_05-27-2026_14_24_57.xlsx
+    Export_05-27-2026_14_25_34.xlsx
+    Export_05-27-2026_14_25_42.xlsx
+    Export_05-27-2026_14_26_00.xlsx
+    Export_05-27-2026_14_26_26.xlsx
+    Export_05-27-2026_14_27_03.xlsx
+    Export_05-27-2026_14_27_28.xlsx
+    Export_05-27-2026_14_27_57.xlsx
+    Export_05-27-2026_14_28_24.xlsx
+    Export_05-27-2026_14_29_05.xlsx
+    Export_05-27-2026_14_29_29.xlsx
+    Export_05-27-2026_14_29_58.xlsx
+    Export_05-27-2026_14_30_21.xlsx
+    Export_05-27-2026_14_31_06.xlsx
+    Export_05-27-2026_14_31_41.xlsx
+    Export_05-27-2026_14_32_06.xlsx
+    Export_05-27-2026_14_32_41.xlsx
+    Export_05-27-2026_14_33_13.xlsx
+    Export_05-27-2026_14_33_32.xlsx
+    Export_05-27-2026_14_34_03.xlsx
+    Export_05-27-2026_14_34_36.xlsx
+    Export_05-27-2026_14_35_36.xlsx
+    Export_05-27-2026_14_35_52.xlsx
+    Export_05-27-2026_14_36_30.xlsx
+    Export_05-27-2026_14_36_52.xlsx
+    Export_05-27-2026_14_39_31.xlsx
+    Export_05-27-2026_14_40_27.xlsx
+    Export_05-27-2026_14_40_52.xlsx
+    Export_05-27-2026_14_41_25.xlsx
+    Export_05-27-2026_14_42_02.xlsx
+    Export_05-27-2026_14_42_24.xlsx
+    Export_05-27-2026_14_42_49.xlsx
+    Export_05-27-2026_14_43_28.xlsx
+    Export_05-27-2026_14_44_13.xlsx
+    Export_05-27-2026_14_44_39.xlsx
+    Export_05-27-2026_14_45_23.xlsx
+    Export_05-27-2026_14_46_05.xlsx
+    Export_05-27-2026_14_46_31.xlsx
+    Export_05-27-2026_14_46_59.xlsx
+    Export_05-27-2026_14_47_22.xlsx
+    Export_05-27-2026_14_47_51.xlsx
+    Export_05-27-2026_14_48_19.xlsx
+    Export_05-27-2026_14_48_44.xlsx
+    Export_05-27-2026_14_49_08.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDMXN: 18 cells
+    USDCAD: 18 cells
+    USDCOP: 17 cells
+    USDCLP: 16 cells
+    AUDUSD: 10 cells  [NO SOURCE FILE]
+    USDBRL: 8 cells
+    EM/MXN: 1 cells
+    EM/PLN: 1 cells
+    EM/ZAR: 1 cells
+    EM/HUF: 1 cells
+    EM/SGD: 1 cells
+    EM/CZK: 1 cells
+    EM/INR: 1 cells
+    EM/TRY: 1 cells
+
+  Source files copied to  files/missing/:
+    Export_05-27-2026_14_25_34.xlsx
+    Export_05-27-2026_14_26_00.xlsx
+    Export_05-27-2026_14_26_26.xlsx
+    Export_05-27-2026_14_27_03.xlsx
+    Export_05-27-2026_14_27_28.xlsx
+    Export_05-27-2026_14_27_57.xlsx
+    Export_05-27-2026_14_28_14.xlsx
+    Export_05-27-2026_14_28_24.xlsx
+    Export_05-27-2026_14_29_05.xlsx
+    Export_05-27-2026_14_29_29.xlsx
+    Export_05-27-2026_14_29_58.xlsx
+    Export_05-27-2026_14_30_21.xlsx
+    Export_05-27-2026_14_31_06.xlsx
+    Export_05-27-2026_14_31_41.xlsx
+    Export_05-27-2026_14_32_06.xlsx
+    Export_05-27-2026_14_32_41.xlsx
+    Export_05-27-2026_14_33_13.xlsx
+    Export_05-27-2026_14_33_32.xlsx
+    Export_05-27-2026_14_34_03.xlsx
+    Export_05-27-2026_14_34_36.xlsx
+    Export_05-27-2026_14_35_36.xlsx
+    Export_05-27-2026_14_36_30.xlsx
+    Export_05-27-2026_14_38_39.xlsx
+    Export_05-27-2026_14_39_31.xlsx
+    Export_05-27-2026_14_40_27.xlsx
+    Export_05-27-2026_14_40_52.xlsx
+    Export_05-27-2026_14_41_25.xlsx
+    Export_05-27-2026_14_42_02.xlsx
+    Export_05-27-2026_14_42_24.xlsx
+    Export_05-27-2026_14_42_49.xlsx
+    Export_05-27-2026_14_43_28.xlsx
+    Export_05-27-2026_14_44_13.xlsx
+    Export_05-27-2026_14_44_39.xlsx
+    Export_05-27-2026_14_45_23.xlsx
+    Export_05-27-2026_14_46_05.xlsx
+    Export_05-27-2026_14_46_31.xlsx
+    Export_05-27-2026_14_46_59.xlsx
+    Export_05-27-2026_14_47_22.xlsx
+    Export_05-27-2026_14_47_51.xlsx
+    Export_05-27-2026_14_48_19.xlsx
+    Export_05-27-2026_14_48_44.xlsx
+    Export_05-27-2026_14_49_08.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDMXN: 18 cells
+    USDCAD: 18 cells
+    USDCOP: 17 cells
+    USDCLP: 16 cells
+    USDBRL: 8 cells
+
+  Source files copied to  files/new_values/:
+    Export_05-27-2026_14_25_34.xlsx
+    Export_05-27-2026_14_26_00.xlsx
+    Export_05-27-2026_14_26_26.xlsx
+    Export_05-27-2026_14_27_03.xlsx
+    Export_05-27-2026_14_27_28.xlsx
+    Export_05-27-2026_14_27_57.xlsx
+    Export_05-27-2026_14_28_24.xlsx
+    Export_05-27-2026_14_29_05.xlsx
+    Export_05-27-2026_14_29_29.xlsx
+    Export_05-27-2026_14_29_58.xlsx
+    Export_05-27-2026_14_30_21.xlsx
+    Export_05-27-2026_14_31_06.xlsx
+    Export_05-27-2026_14_31_41.xlsx
+    Export_05-27-2026_14_32_06.xlsx
+    Export_05-27-2026_14_32_41.xlsx
+    Export_05-27-2026_14_33_13.xlsx
+    Export_05-27-2026_14_33_32.xlsx
+    Export_05-27-2026_14_34_03.xlsx
+    Export_05-27-2026_14_34_36.xlsx
+    Export_05-27-2026_14_35_36.xlsx
+    Export_05-27-2026_14_36_30.xlsx
+    Export_05-27-2026_14_39_31.xlsx
+    Export_05-27-2026_14_40_27.xlsx
+    Export_05-27-2026_14_40_52.xlsx
+    Export_05-27-2026_14_41_25.xlsx
+    Export_05-27-2026_14_42_02.xlsx
+    Export_05-27-2026_14_42_24.xlsx
+    Export_05-27-2026_14_42_49.xlsx
+    Export_05-27-2026_14_43_28.xlsx
+    Export_05-27-2026_14_44_13.xlsx
+    Export_05-27-2026_14_44_39.xlsx
+    Export_05-27-2026_14_45_23.xlsx
+    Export_05-27-2026_14_46_05.xlsx
+    Export_05-27-2026_14_46_31.xlsx
+    Export_05-27-2026_14_46_59.xlsx
+    Export_05-27-2026_14_47_22.xlsx
+    Export_05-27-2026_14_47_51.xlsx
+    Export_05-27-2026_14_48_19.xlsx
+    Export_05-27-2026_14_48_44.xlsx
+    Export_05-27-2026_14_49_08.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

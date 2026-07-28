@@ -1,0 +1,167 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-06-29 15:04:20
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260629_150314.xlsx
+  Reference       : CFXPP_DATA_20260624 (1).xlsx
+  Archive Dir     : 20260624_20260629
+
+OVERALL STATISTICS:
+  Total cells compared : 1,976
+  Matches              : 1,649 (83.45%)
+  Mismatches           : 22
+  Missing (in ref)     : 303
+  New values (extra)   : 2
+
+OUTPUT FILES:
+  report_mismatches.csv  (22 rows)
+  report_missing.csv     (303 rows)
+  report_new_values.csv  (2 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    EM Currency Positioning: 15
+    FX Pair Positioning: 4
+    G10 Currency Positioning: 3
+
+  By Currency Pair:
+    USDTRY: 4
+    EM/MXN: 3
+    G10/CHF: 2
+    EM/PLN: 2
+    EM/ZAR: 2
+    EM/HUF: 2
+    EM/SGD: 2
+    EM/CZK: 2
+    EM/TRY: 2
+    G10/EUR: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-06-25  Column: 376  USDTRY | REALMONEY | Volume (normalized)
+      Pipeline : -920
+      Reference: 150.0
+      Diff     : -1070.0
+      Source   : Export_06-29-2026_14_42_34.xlsx
+    Date: 2026-06-24  Column: 147  EM/MXN | HEDGEFUND | Net Cumulative Positioning
+      Pipeline : -10
+      Reference: -1000.0
+      Diff     : 990.0
+      Source   : Export_06-29-2026_14_45_17.xlsx; Export_06-29-2026_14_44_28.xlsx; Export_06-29-2026_14_39_30.xlsx; Export_06-29-2026_14_24_52.xlsx
+    Date: 2026-06-26  Column: 104  EM/SGD | BANKS_BROKER | Net Cumulative Positioning
+      Pipeline : 370
+      Reference: -20.0
+      Diff     : 390.0
+      Source   : Export_06-29-2026_14_52_31.xlsx; Export_06-29-2026_14_50_51.xlsx; Export_06-29-2026_14_35_05.xlsx; Export_06-29-2026_14_28_22.xlsx
+    Date: 2026-06-26  Column: 111  EM/SGD | CORPORATE_REALMONEY | Net Cumulative Positioning
+      Pipeline : -20
+      Reference: 370.0
+      Diff     : -390.0
+      Source   : Export_06-29-2026_14_49_40.xlsx; Export_06-29-2026_14_35_22.xlsx; Export_06-29-2026_14_27_50.xlsx
+    Date: 2026-06-26  Column: 31  G10/EUR | CORPORATE_REALMONEY | Net Cumulative Positioning
+      Pipeline : -90
+      Reference: -400.0
+      Diff     : 310.0
+      Source   : Export_06-29-2026_14_37_06.xlsx; Export_06-29-2026_14_33_09.xlsx; Export_06-29-2026_14_24_36.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_06-29-2026_14_24_36.xlsx
+    Export_06-29-2026_14_24_52.xlsx
+    Export_06-29-2026_14_27_50.xlsx
+    Export_06-29-2026_14_28_22.xlsx
+    Export_06-29-2026_14_30_32.xlsx
+    Export_06-29-2026_14_30_44.xlsx
+    Export_06-29-2026_14_30_54.xlsx
+    Export_06-29-2026_14_31_09.xlsx
+    Export_06-29-2026_14_33_09.xlsx
+    Export_06-29-2026_14_35_05.xlsx
+    Export_06-29-2026_14_35_22.xlsx
+    Export_06-29-2026_14_37_06.xlsx
+    Export_06-29-2026_14_39_28.xlsx
+    Export_06-29-2026_14_39_30.xlsx
+    Export_06-29-2026_14_40_31.xlsx
+    Export_06-29-2026_14_42_34.xlsx
+    Export_06-29-2026_14_44_28.xlsx
+    Export_06-29-2026_14_45_17.xlsx
+    Export_06-29-2026_14_49_40.xlsx
+    Export_06-29-2026_14_50_51.xlsx
+    Export_06-29-2026_14_52_31.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDCNH: 85 cells  [NO SOURCE FILE]
+    USDCOP: 66 cells  [NO SOURCE FILE]
+    USDCLP: 60 cells  [NO SOURCE FILE]
+    USDTRY: 9 cells  [NO SOURCE FILE]
+    EM/TRY: 9 cells
+    EM/INR: 9 cells
+    EM/MXN: 9 cells
+    EM/SGD: 9 cells
+    EM/CZK: 9 cells
+    EM/HUF: 9 cells
+    EM/ZAR: 9 cells
+    EM/PLN: 8 cells
+    USDPEN: 6 cells  [NO SOURCE FILE]
+    USDPHP: 6 cells  [NO SOURCE FILE]
+
+  Source files copied to  files/missing/:
+    Export_06-29-2026_14_23_26.xlsx
+    Export_06-29-2026_14_24_24.xlsx
+    Export_06-29-2026_14_24_52.xlsx
+    Export_06-29-2026_14_26_08.xlsx
+    Export_06-29-2026_14_26_42.xlsx
+    Export_06-29-2026_14_27_18.xlsx
+    Export_06-29-2026_14_27_50.xlsx
+    Export_06-29-2026_14_28_22.xlsx
+    Export_06-29-2026_14_28_49.xlsx
+    Export_06-29-2026_14_34_54.xlsx
+    Export_06-29-2026_14_35_05.xlsx
+    Export_06-29-2026_14_35_22.xlsx
+    Export_06-29-2026_14_37_52.xlsx
+    Export_06-29-2026_14_37_59.xlsx
+    Export_06-29-2026_14_39_22.xlsx
+    Export_06-29-2026_14_39_30.xlsx
+    Export_06-29-2026_14_39_42.xlsx
+    Export_06-29-2026_14_39_55.xlsx
+    Export_06-29-2026_14_43_04.xlsx
+    Export_06-29-2026_14_43_45.xlsx
+    Export_06-29-2026_14_44_28.xlsx
+    Export_06-29-2026_14_45_08.xlsx
+    Export_06-29-2026_14_45_17.xlsx
+    Export_06-29-2026_14_47_57.xlsx
+    Export_06-29-2026_14_48_33.xlsx
+    Export_06-29-2026_14_48_40.xlsx
+    Export_06-29-2026_14_49_40.xlsx
+    Export_06-29-2026_14_50_51.xlsx
+    Export_06-29-2026_14_52_31.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    EM/HUF: 1 cells
+    G10/CHF: 1 cells
+
+  Source files copied to  files/new_values/:
+    Export_06-29-2026_14_23_26.xlsx
+    Export_06-29-2026_14_30_44.xlsx
+    Export_06-29-2026_14_31_09.xlsx
+    Export_06-29-2026_14_39_28.xlsx
+    Export_06-29-2026_14_39_55.xlsx
+    Export_06-29-2026_14_43_04.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

@@ -1,0 +1,132 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-05-18 15:14:03
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260518_151234.xlsx
+  Reference       : CFXPP_DATA_20260518.xlsx
+  Archive Dir     : 20260513_20260518
+
+OVERALL STATISTICS:
+  Total cells compared : 2,015
+  Matches              : 1,590 (78.91%)
+  Mismatches           : 1
+  Missing (in ref)     : 400
+  New values (extra)   : 24
+
+OUTPUT FILES:
+  report_mismatches.csv  (1 rows)
+  report_missing.csv     (400 rows)
+  report_new_values.csv  (24 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    G10 Currency Positioning: 1
+
+  By Currency Pair:
+    G10/EUR: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-05-14  Column: 13  G10/EUR | BANKS_BROKER | Net Cumulative Positioning
+      Pipeline : 60
+      Reference: 390.0
+      Diff     : -330.0
+      Source   : Export_05-18-2026_14_26_16.xlsx; Export_05-18-2026_14_25_51.xlsx; Export_05-18-2026_14_08_44.xlsx; Export_05-18-2026_14_07_27.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_05-18-2026_14_07_27.xlsx
+    Export_05-18-2026_14_08_44.xlsx
+    Export_05-18-2026_14_25_51.xlsx
+    Export_05-18-2026_14_26_16.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDZAR: 88 cells  [NO SOURCE FILE]
+    USDTRY: 87 cells  [NO SOURCE FILE]
+    USDCNH: 87 cells  [NO SOURCE FILE]
+    USDPLN: 64 cells  [NO SOURCE FILE]
+    USDPEN: 39 cells  [NO SOURCE FILE]
+    USDJPY: 10 cells  [NO SOURCE FILE]
+    USDHKD: 9 cells
+    USDSGD: 9 cells
+    USDBRL: 6 cells
+    CHFUSD: 1 cells
+
+  Source files copied to  files/missing/:
+    Export_05-18-2026_14_14_31.xlsx
+    Export_05-18-2026_14_15_38.xlsx
+    Export_05-18-2026_14_16_01.xlsx
+    Export_05-18-2026_14_16_21.xlsx
+    Export_05-18-2026_14_16_38.xlsx
+    Export_05-18-2026_14_16_58.xlsx
+    Export_05-18-2026_14_17_15.xlsx
+    Export_05-18-2026_14_17_37.xlsx
+    Export_05-18-2026_14_17_55.xlsx
+    Export_05-18-2026_14_18_11.xlsx
+    Export_05-18-2026_14_18_41.xlsx
+    Export_05-18-2026_14_19_04.xlsx
+    Export_05-18-2026_14_19_22.xlsx
+    Export_05-18-2026_14_19_44.xlsx
+    Export_05-18-2026_14_20_12.xlsx
+    Export_05-18-2026_14_20_40.xlsx
+    Export_05-18-2026_14_21_04.xlsx
+    Export_05-18-2026_14_21_22.xlsx
+    Export_05-18-2026_14_21_50.xlsx
+    Export_05-18-2026_14_42_15.xlsx
+    Export_05-18-2026_14_42_38.xlsx
+    Export_05-18-2026_14_43_37.xlsx
+    Export_05-18-2026_14_43_59.xlsx
+    Export_05-18-2026_14_45_26.xlsx
+    Export_05-18-2026_14_45_46.xlsx
+    Export_05-18-2026_14_47_45.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDHKD: 9 cells
+    USDSGD: 9 cells
+    USDBRL: 6 cells
+
+  Source files copied to  files/new_values/:
+    Export_05-18-2026_14_14_31.xlsx
+    Export_05-18-2026_14_15_38.xlsx
+    Export_05-18-2026_14_16_01.xlsx
+    Export_05-18-2026_14_16_21.xlsx
+    Export_05-18-2026_14_16_38.xlsx
+    Export_05-18-2026_14_16_58.xlsx
+    Export_05-18-2026_14_17_15.xlsx
+    Export_05-18-2026_14_17_37.xlsx
+    Export_05-18-2026_14_17_55.xlsx
+    Export_05-18-2026_14_18_11.xlsx
+    Export_05-18-2026_14_18_41.xlsx
+    Export_05-18-2026_14_19_04.xlsx
+    Export_05-18-2026_14_19_22.xlsx
+    Export_05-18-2026_14_19_44.xlsx
+    Export_05-18-2026_14_20_12.xlsx
+    Export_05-18-2026_14_20_40.xlsx
+    Export_05-18-2026_14_21_04.xlsx
+    Export_05-18-2026_14_21_22.xlsx
+    Export_05-18-2026_14_21_50.xlsx
+    Export_05-18-2026_14_42_15.xlsx
+    Export_05-18-2026_14_42_38.xlsx
+    Export_05-18-2026_14_43_37.xlsx
+    Export_05-18-2026_14_43_59.xlsx
+    Export_05-18-2026_14_45_26.xlsx
+    Export_05-18-2026_14_45_46.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

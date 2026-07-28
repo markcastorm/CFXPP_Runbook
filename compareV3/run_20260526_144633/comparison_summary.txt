@@ -1,0 +1,47 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-05-26 14:46:50
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260526_144612.xlsx
+  Reference       : CFXPP_DATA_20260526.xlsx
+  Archive Dir     : 20260521_20260526
+
+OVERALL STATISTICS:
+  Total cells compared : 1,942
+  Matches              : 1,908 (98.25%)
+  Mismatches           : 0
+  Missing (in ref)     : 18
+  New values (extra)   : 16
+
+OUTPUT FILES:
+  report_mismatches.csv  (0 rows)
+  report_missing.csv     (18 rows)
+  report_new_values.csv  (16 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDSGD: 10 cells  [NO SOURCE FILE]
+    USDINR: 8 cells  [NO SOURCE FILE]
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDTRY: 16 cells
+
+  Source files copied to  files/new_values/:
+    Export_05-26-2026_14_06_17.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

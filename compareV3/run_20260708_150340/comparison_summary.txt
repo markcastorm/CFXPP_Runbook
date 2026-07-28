@@ -1,0 +1,141 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-07-08 15:03:50
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260708_150244.xlsx
+  Reference       : CFXPP_DATA_20260706.xlsx
+  Archive Dir     : 20260703_20260708
+
+OVERALL STATISTICS:
+  Total cells compared : 1,940
+  Matches              : 1,599 (82.42%)
+  Mismatches           : 73
+  Missing (in ref)     : 246
+  New values (extra)   : 22
+
+OUTPUT FILES:
+  report_mismatches.csv  (73 rows)
+  report_missing.csv     (246 rows)
+  report_new_values.csv  (22 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    EM Currency Positioning: 3
+    FX Pair Positioning: 68
+    G10 Currency Positioning: 2
+
+  By Currency Pair:
+    USDZAR: 63
+    AUDUSD: 5
+    G10/NZD: 1
+    EM/TRY: 1
+    EM/MXN: 1
+    EM/HUF: 1
+    G10/CHF: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-07-06  Column: 380  USDZAR | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Volume (normalized)
+      Pipeline : -570
+      Reference: 730.0
+      Diff     : -1300.0
+      Source   : Export_07-08-2026_14_43_23.xlsx
+    Date: 2026-07-06  Column: 392  USDZAR | HEDGEFUND | Volume (normalized)
+      Pipeline : -1000
+      Reference: 0.0
+      Diff     : -1000.0
+      Source   : Export_07-08-2026_14_46_43.xlsx
+    Date: 2026-07-03  Column: 140  EM/TRY | HEDGEFUND | Net Cumulative Positioning
+      Pipeline : -1000
+      Reference: -20.0
+      Diff     : -980.0
+      Source   : Export_07-08-2026_14_40_45.xlsx; Export_07-08-2026_14_38_03.xlsx; Export_07-08-2026_14_25_11.xlsx
+    Date: 2026-07-07  Column: 206  AUDUSD | BANKS | Volume (normalized)
+      Pipeline : -1000
+      Reference: -220.0
+      Diff     : -780.0
+      Source   : Export_07-08-2026_14_09_29.xlsx
+    Date: 2026-07-03  Column: 384  USDZAR | CORPORATE_REALMONEY | Volume (normalized)
+      Pipeline : -900
+      Reference: -350.0
+      Diff     : -550.0
+      Source   : Export_07-08-2026_14_45_01.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_07-08-2026_14_09_29.xlsx
+    Export_07-08-2026_14_20_04.xlsx
+    Export_07-08-2026_14_21_29.xlsx
+    Export_07-08-2026_14_23_34.xlsx
+    Export_07-08-2026_14_25_11.xlsx
+    Export_07-08-2026_14_30_46.xlsx
+    Export_07-08-2026_14_30_59.xlsx
+    Export_07-08-2026_14_32_14.xlsx
+    Export_07-08-2026_14_33_49.xlsx
+    Export_07-08-2026_14_36_15.xlsx
+    Export_07-08-2026_14_38_03.xlsx
+    Export_07-08-2026_14_40_45.xlsx
+    Export_07-08-2026_14_41_21.xlsx
+    Export_07-08-2026_14_42_23.xlsx
+    Export_07-08-2026_14_43_23.xlsx
+    Export_07-08-2026_14_44_38.xlsx
+    Export_07-08-2026_14_45_01.xlsx
+    Export_07-08-2026_14_45_22.xlsx
+    Export_07-08-2026_14_45_46.xlsx
+    Export_07-08-2026_14_46_20.xlsx
+    Export_07-08-2026_14_46_43.xlsx
+    Export_07-08-2026_14_47_08.xlsx
+    Export_07-08-2026_14_47_28.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDCNH: 86 cells  [NO SOURCE FILE]
+    USDCLP: 59 cells  [NO SOURCE FILE]
+    USDCOP: 53 cells  [NO SOURCE FILE]
+    USDZAR: 22 cells
+    AUDUSD: 10 cells  [NO SOURCE FILE]
+    USDSGD: 10 cells  [NO SOURCE FILE]
+    USDBRL: 6 cells  [NO SOURCE FILE]
+
+  Source files copied to  files/missing/:
+    Export_07-08-2026_14_43_23.xlsx
+    Export_07-08-2026_14_44_38.xlsx
+    Export_07-08-2026_14_45_01.xlsx
+    Export_07-08-2026_14_45_22.xlsx
+    Export_07-08-2026_14_45_46.xlsx
+    Export_07-08-2026_14_46_20.xlsx
+    Export_07-08-2026_14_46_43.xlsx
+    Export_07-08-2026_14_47_08.xlsx
+    Export_07-08-2026_14_47_28.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDZAR: 22 cells
+
+  Source files copied to  files/new_values/:
+    Export_07-08-2026_14_43_23.xlsx
+    Export_07-08-2026_14_44_38.xlsx
+    Export_07-08-2026_14_45_01.xlsx
+    Export_07-08-2026_14_45_22.xlsx
+    Export_07-08-2026_14_45_46.xlsx
+    Export_07-08-2026_14_46_20.xlsx
+    Export_07-08-2026_14_46_43.xlsx
+    Export_07-08-2026_14_47_08.xlsx
+    Export_07-08-2026_14_47_28.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

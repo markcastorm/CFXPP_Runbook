@@ -1,0 +1,71 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-05-25 15:12:47
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260525_151129.xlsx
+  Reference       : CFXPP_DATA_20260525.xlsx
+  Archive Dir     : 20260520_20260525
+
+OVERALL STATISTICS:
+  Total cells compared : 1,979
+  Matches              : 1,943 (98.18%)
+  Mismatches           : 0
+  Missing (in ref)     : 17
+  New values (extra)   : 19
+
+OUTPUT FILES:
+  report_mismatches.csv  (0 rows)
+  report_missing.csv     (17 rows)
+  report_new_values.csv  (19 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDPHP: 13 cells
+    CHFUSD: 4 cells
+
+  Source files copied to  files/missing/:
+    Export_05-25-2026_14_11_38.xlsx
+    Export_05-25-2026_14_13_44.xlsx
+    Export_05-25-2026_14_14_59.xlsx
+    Export_05-25-2026_14_15_37.xlsx
+    Export_05-25-2026_14_59_09.xlsx
+    Export_05-25-2026_15_00_11.xlsx
+    Export_05-25-2026_15_01_31.xlsx
+    Export_05-25-2026_15_02_44.xlsx
+    Export_05-25-2026_15_02_58.xlsx
+    Export_05-25-2026_15_04_00.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDPHP: 13 cells
+    CHFUSD: 4 cells
+    GBPUSD: 2 cells
+
+  Source files copied to  files/new_values/:
+    Export_05-25-2026_14_11_38.xlsx
+    Export_05-25-2026_14_13_44.xlsx
+    Export_05-25-2026_14_14_59.xlsx
+    Export_05-25-2026_14_15_37.xlsx
+    Export_05-25-2026_14_47_50.xlsx
+    Export_05-25-2026_14_59_09.xlsx
+    Export_05-25-2026_15_00_11.xlsx
+    Export_05-25-2026_15_01_31.xlsx
+    Export_05-25-2026_15_02_44.xlsx
+    Export_05-25-2026_15_02_58.xlsx
+    Export_05-25-2026_15_04_00.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

@@ -1,0 +1,57 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-05-13 16:57:20
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260513_165611.xlsx
+  Reference       : CFXPP_DATA_20260512 (1).xlsx
+  Archive Dir     : 20260508_20260513
+
+OVERALL STATISTICS:
+  Total cells compared : 1,971
+  Matches              : 1,964 (99.64%)
+  Mismatches           : 1
+  Missing (in ref)     : 6
+  New values (extra)   : 0
+
+OUTPUT FILES:
+  report_mismatches.csv  (1 rows)
+  report_missing.csv     (6 rows)
+  report_new_values.csv  (0 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    FX Pair Positioning: 1
+
+  By Currency Pair:
+    USDMXN: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-05-13  Column: 255  USDMXN | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Closing Price
+      Pipeline : 17.2311
+      Reference: 17.2327
+      Diff     : -0.0016
+      Source   : Export_05-13-2026_16_25_17.xlsx; Export_05-13-2026_16_23_01.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_05-13-2026_16_23_01.xlsx
+    Export_05-13-2026_16_25_17.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDPHP: 6 cells  [NO SOURCE FILE]
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

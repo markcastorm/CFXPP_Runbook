@@ -1,0 +1,80 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-07-28 15:15:59
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260728_151450.xlsx
+  Reference       : CFXPP_DATA_20260728.xlsx
+  Archive Dir     : 20260723_20260728
+
+OVERALL STATISTICS:
+  Total cells compared : 1,951
+  Matches              : 1,600 (82.01%)
+  Mismatches           : 5
+  Missing (in ref)     : 346
+  New values (extra)   : 0
+
+OUTPUT FILES:
+  report_mismatches.csv  (5 rows)
+  report_missing.csv     (346 rows)
+  report_new_values.csv  (0 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    FX Pair Positioning: 5
+
+  By Currency Pair:
+    USDJPY: 5
+
+  Top mismatches (by absolute difference):
+    Date: 2026-07-26  Column: 238  USDJPY | BANKS_BROKER | Volume (normalized)
+      Pipeline : 580
+      Reference: 240.0
+      Diff     : 340.0
+      Source   : Export_07-28-2026_14_18_10.xlsx
+    Date: 2026-07-24  Column: 238  USDJPY | BANKS_BROKER | Volume (normalized)
+      Pipeline : 630
+      Reference: 310.0
+      Diff     : 320.0
+      Source   : Export_07-28-2026_14_18_10.xlsx
+    Date: 2026-07-23  Column: 238  USDJPY | BANKS_BROKER | Volume (normalized)
+      Pipeline : -430
+      Reference: -620.0
+      Diff     : 190.0
+      Source   : Export_07-28-2026_14_18_10.xlsx
+    Date: 2026-07-27  Column: 238  USDJPY | BANKS_BROKER | Volume (normalized)
+      Pipeline : 670
+      Reference: 510.0
+      Diff     : 160.0
+      Source   : Export_07-28-2026_14_18_10.xlsx
+    Date: 2026-07-28  Column: 239  USDJPY | BANKS_BROKER | Closing Price
+      Pipeline : 163.9256
+      Reference: 163.9275
+      Diff     : -0.0019
+      Source   : Export_07-28-2026_14_18_10.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_07-28-2026_14_18_10.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDZAR: 86 cells  [NO SOURCE FILE]
+    USDCNH: 83 cells  [NO SOURCE FILE]
+    USDPLN: 79 cells  [NO SOURCE FILE]
+    USDTRY: 72 cells  [NO SOURCE FILE]
+    USDPEN: 26 cells  [NO SOURCE FILE]
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

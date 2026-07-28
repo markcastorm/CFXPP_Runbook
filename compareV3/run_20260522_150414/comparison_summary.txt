@@ -1,0 +1,99 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-05-22 15:04:26
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260522_150255.xlsx
+  Reference       : CFXPP_DATA_20260521.xlsx
+  Archive Dir     : 20260518_20260522
+
+OVERALL STATISTICS:
+  Total cells compared : 2,206
+  Matches              : 2,160 (97.91%)
+  Mismatches           : 12
+  Missing (in ref)     : 34
+  New values (extra)   : 0
+
+OUTPUT FILES:
+  report_mismatches.csv  (12 rows)
+  report_missing.csv     (34 rows)
+  report_new_values.csv  (0 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    G10 Currency Positioning: 12
+
+  By Currency Pair:
+    G10/JPY: 2
+    G10/USD: 2
+    G10/CHF: 1
+    G10/CAD: 1
+    G10/NOK: 1
+    G10/NZD: 1
+    G10/SEK: 1
+    G10/AUD: 1
+    G10/GBP: 1
+    G10/EUR: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-05-18  Column: 52  G10/CHF | CORPORATE | Net Cumulative Positioning
+      Pipeline : 1000
+      Reference: -30.0
+      Diff     : 1030.0
+      Source   : Export_05-22-2026_14_50_48.xlsx; Export_05-22-2026_14_36_31.xlsx; Export_05-22-2026_14_24_36.xlsx; Export_05-22-2026_14_20_16.xlsx
+    Date: 2026-05-18  Column: 60  G10/USD | CORPORATE | Net Cumulative Positioning
+      Pipeline : 80
+      Reference: 1000.0
+      Diff     : -920.0
+      Source   : Export_05-22-2026_14_50_48.xlsx; Export_05-22-2026_14_36_31.xlsx; Export_05-22-2026_14_24_36.xlsx; Export_05-22-2026_14_20_16.xlsx
+    Date: 2026-05-18  Column: 61  G10/EUR | CORPORATE | Net Cumulative Positioning
+      Pipeline : 800
+      Reference: -100.0
+      Diff     : 900.0
+      Source   : Export_05-22-2026_14_50_48.xlsx; Export_05-22-2026_14_36_31.xlsx; Export_05-22-2026_14_24_36.xlsx; Export_05-22-2026_14_20_16.xlsx
+    Date: 2026-05-18  Column: 59  G10/GBP | CORPORATE | Net Cumulative Positioning
+      Pipeline : 630
+      Reference: -180.0
+      Diff     : 810.0
+      Source   : Export_05-22-2026_14_50_48.xlsx; Export_05-22-2026_14_36_31.xlsx; Export_05-22-2026_14_24_36.xlsx; Export_05-22-2026_14_20_16.xlsx
+    Date: 2026-05-20  Column: 32  G10/JPY | BANKS | Net Cumulative Positioning
+      Pipeline : 120
+      Reference: -230.0
+      Diff     : 350.0
+      Source   : Export_05-22-2026_14_48_18.xlsx; Export_05-22-2026_14_35_24.xlsx; Export_05-22-2026_14_21_49.xlsx; Export_05-22-2026_14_14_40.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_05-22-2026_14_09_23.xlsx
+    Export_05-22-2026_14_14_40.xlsx
+    Export_05-22-2026_14_16_54.xlsx
+    Export_05-22-2026_14_20_16.xlsx
+    Export_05-22-2026_14_21_49.xlsx
+    Export_05-22-2026_14_24_36.xlsx
+    Export_05-22-2026_14_33_05.xlsx
+    Export_05-22-2026_14_35_24.xlsx
+    Export_05-22-2026_14_36_31.xlsx
+    Export_05-22-2026_14_44_06.xlsx
+    Export_05-22-2026_14_48_18.xlsx
+    Export_05-22-2026_14_50_48.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDHKD: 10 cells  [NO SOURCE FILE]
+    USDTWD: 10 cells  [NO SOURCE FILE]
+    USDCOP: 8 cells  [NO SOURCE FILE]
+    USDPEN: 6 cells  [NO SOURCE FILE]
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

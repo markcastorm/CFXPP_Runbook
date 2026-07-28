@@ -1,0 +1,58 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-07-13 15:01:26
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260713_150026.xlsx
+  Reference       : CFXPP_DATA_20260713.xlsx
+  Archive Dir     : 20260708_20260713
+
+OVERALL STATISTICS:
+  Total cells compared : 1,907
+  Matches              : 1,554 (81.49%)
+  Mismatches           : 0
+  Missing (in ref)     : 350
+  New values (extra)   : 3
+
+OUTPUT FILES:
+  report_mismatches.csv  (0 rows)
+  report_missing.csv     (350 rows)
+  report_new_values.csv  (3 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    AUDUSD: 89 cells  [NO SOURCE FILE]
+    USDZAR: 88 cells  [NO SOURCE FILE]
+    USDCNH: 85 cells  [NO SOURCE FILE]
+    USDPLN: 74 cells  [NO SOURCE FILE]
+    CHFUSD: 8 cells
+    USDCLP: 6 cells  [NO SOURCE FILE]
+
+  Source files copied to  files/missing/:
+    Export_07-13-2026_14_40_38.xlsx
+    Export_07-13-2026_14_41_46.xlsx
+    Export_07-13-2026_14_42_37.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    CHFUSD: 3 cells
+
+  Source files copied to  files/new_values/:
+    Export_07-13-2026_14_40_38.xlsx
+    Export_07-13-2026_14_41_46.xlsx
+    Export_07-13-2026_14_42_37.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

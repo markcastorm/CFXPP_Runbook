@@ -1,0 +1,126 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-06-08 14:42:28
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260608_144151.xlsx
+  Reference       : CFXPP_DATA_20260608.xlsx
+  Archive Dir     : 20260603_20260608
+
+OVERALL STATISTICS:
+  Total cells compared : 2,044
+  Matches              : 1,996 (97.65%)
+  Mismatches           : 9
+  Missing (in ref)     : 24
+  New values (extra)   : 15
+
+OUTPUT FILES:
+  report_mismatches.csv  (9 rows)
+  report_missing.csv     (24 rows)
+  report_new_values.csv  (15 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    FX Pair Positioning: 9
+
+  By Currency Pair:
+    USDPEN: 9
+
+  Top mismatches (by absolute difference):
+    Date: 2026-06-04  Column: 358  USDPEN | REALMONEY | Volume (normalized)
+      Pipeline : 1000
+      Reference: 0.0
+      Diff     : 1000.0
+      Source   : Export_06-08-2026_14_13_13.xlsx
+    Date: 2026-06-05  Column: 358  USDPEN | REALMONEY | Volume (normalized)
+      Pipeline : 650
+      Reference: 1000.0
+      Diff     : -350.0
+      Source   : Export_06-08-2026_14_13_13.xlsx
+    Date: 2026-06-07  Column: 345  USDPEN | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Closing Price
+      Pipeline : 3.466
+      Reference: 3.4291
+      Diff     : 0.0369
+      Source   : Export_06-08-2026_14_09_00.xlsx
+    Date: 2026-06-07  Column: 347  USDPEN | BANKS_BROKER | Closing Price
+      Pipeline : 3.466
+      Reference: 3.4291
+      Diff     : 0.0369
+      Source   : Export_06-08-2026_14_09_06.xlsx
+    Date: 2026-06-07  Column: 349  USDPEN | CORPORATE_REALMONEY | Closing Price
+      Pipeline : 3.466
+      Reference: 3.4291
+      Diff     : 0.0369
+      Source   : Export_06-08-2026_14_11_11.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_06-08-2026_14_09_00.xlsx
+    Export_06-08-2026_14_09_06.xlsx
+    Export_06-08-2026_14_11_11.xlsx
+    Export_06-08-2026_14_11_46.xlsx
+    Export_06-08-2026_14_12_57.xlsx
+    Export_06-08-2026_14_13_13.xlsx
+    Export_06-08-2026_14_13_28.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDCLP: 9 cells  [NO SOURCE FILE]
+    USDPEN: 7 cells
+    EM/MXN: 1 cells
+    EM/PLN: 1 cells
+    EM/ZAR: 1 cells
+    EM/HUF: 1 cells
+    EM/SGD: 1 cells
+    EM/CZK: 1 cells
+    EM/INR: 1 cells
+    EM/TRY: 1 cells
+
+  Source files copied to  files/missing/:
+    Export_06-08-2026_14_08_32.xlsx
+    Export_06-08-2026_14_09_00.xlsx
+    Export_06-08-2026_14_09_06.xlsx
+    Export_06-08-2026_14_11_11.xlsx
+    Export_06-08-2026_14_11_46.xlsx
+    Export_06-08-2026_14_12_57.xlsx
+    Export_06-08-2026_14_13_13.xlsx
+    Export_06-08-2026_14_13_28.xlsx
+    Export_06-08-2026_14_20_44.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDPEN: 8 cells
+    USDTWD: 7 cells
+
+  Source files copied to  files/new_values/:
+    Export_06-08-2026_14_09_00.xlsx
+    Export_06-08-2026_14_09_06.xlsx
+    Export_06-08-2026_14_11_11.xlsx
+    Export_06-08-2026_14_11_46.xlsx
+    Export_06-08-2026_14_12_57.xlsx
+    Export_06-08-2026_14_13_13.xlsx
+    Export_06-08-2026_14_13_28.xlsx
+    Export_06-08-2026_14_24_10.xlsx
+    Export_06-08-2026_14_24_19.xlsx
+    Export_06-08-2026_14_24_30.xlsx
+    Export_06-08-2026_14_24_43.xlsx
+    Export_06-08-2026_14_26_39.xlsx
+    Export_06-08-2026_14_26_48.xlsx
+    Export_06-08-2026_14_26_57.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

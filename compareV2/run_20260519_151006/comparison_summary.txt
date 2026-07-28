@@ -1,0 +1,61 @@
+======================================================================
+CFXPP COMPARISON REPORT V2
+======================================================================
+
+Generated: 2026-05-19 15:10:19
+
+FILES COMPARED:
+  Pipeline Output: CFXPP_DATA_20260519_150433.xlsx
+  Reference:       CFXPP_DATA_20260519.xlsx
+  Archive Dir:     20260514_20260519
+
+OVERALL STATISTICS:
+  Total cells compared: 2,060
+  Matches:              1,474 (71.55%)
+  Mismatches:           37
+  Missing (in ref):     518
+  Extra (in pipeline):  31
+
+MISMATCHES BY SECTION:
+  EM Currency Positioning: 1
+  FX Pair Positioning: 36
+
+TOP MISMATCHES (by absolute difference):
+  2026-05-19 | CHFUSD BANKS Volume (normalized)
+    Pipeline: -880 | Reference: 1000.0 | Diff: -1880.0
+    Source: Export_05-19-2026_14_34_53.xlsx
+  2026-05-19 | CHFUSD BROKER Volume (normalized)
+    Pipeline: 920 | Reference: -880.0 | Diff: 1800.0
+    Source: Export_05-19-2026_14_35_19.xlsx
+  2026-05-18 | CHFUSD CORPORATE_REALMONEY Volume (normalized)
+    Pipeline: 750 | Reference: -1000.0 | Diff: 1750.0
+    Source: Export_05-19-2026_14_33_56.xlsx
+  2026-05-18 | CHFUSD BANKS Volume (normalized)
+    Pipeline: -1000 | Reference: 750.0 | Diff: -1750.0
+    Source: Export_05-19-2026_14_34_53.xlsx
+  2026-05-19 | CHFUSD CORPORATE_REALMONEY Volume (normalized)
+    Pipeline: 1000 | Reference: -750.0 | Diff: 1750.0
+    Source: Export_05-19-2026_14_33_56.xlsx
+
+MISSING CELLS BY CURRENCY PAIR:
+  USDSGD: 97 cells
+  USDCNH: 87 cells [NO SOURCE FILES]
+  USDTRY: 86 cells [NO SOURCE FILES]
+  USDZAR: 78 cells [NO SOURCE FILES]
+  USDPLN: 75 cells [NO SOURCE FILES]
+  USDPEN: 44 cells [NO SOURCE FILES]
+  USDCOP: 31 cells [NO SOURCE FILES]
+  USDTWD: 8 cells
+  USDBRL: 6 cells
+  CHFUSD: 5 cells
+  USDCLP: 1 cells
+
+EXTRA CELLS BY CURRENCY PAIR:
+  USDSGD: 16 cells
+  USDTWD: 8 cells
+  USDBRL: 6 cells
+  USDCLP: 1 cells
+
+======================================================================
+Detailed CSV report: comparison_report.csv
+======================================================================

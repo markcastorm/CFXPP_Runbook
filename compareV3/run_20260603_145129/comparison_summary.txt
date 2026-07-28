@@ -1,0 +1,120 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-06-03 14:51:41
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260603_145110.xlsx
+  Reference       : CFXPP_DATA_20260603.xlsx
+  Archive Dir     : 20260529_20260603
+
+OVERALL STATISTICS:
+  Total cells compared : 1,976
+  Matches              : 1,907 (96.51%)
+  Mismatches           : 16
+  Missing (in ref)     : 30
+  New values (extra)   : 23
+
+OUTPUT FILES:
+  report_mismatches.csv  (16 rows)
+  report_missing.csv     (30 rows)
+  report_new_values.csv  (23 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    FX Pair Positioning: 16
+
+  By Currency Pair:
+    USDPEN: 12
+    USDZAR: 2
+    USDPLN: 2
+
+  Top mismatches (by absolute difference):
+    Date: 2026-06-01  Column: 400  USDPLN | BANKS_BROKER | Volume (normalized)
+      Pipeline : 90
+      Reference: -800.0
+      Diff     : 890.0
+      Source   : Export_06-03-2026_14_26_56.xlsx
+    Date: 2026-06-02  Column: 386  USDZAR | BANKS | Volume (normalized)
+      Pipeline : -350
+      Reference: -590.0
+      Diff     : 240.0
+      Source   : Export_06-03-2026_14_22_08.xlsx
+    Date: 2026-06-02  Column: 400  USDPLN | BANKS_BROKER | Volume (normalized)
+      Pipeline : -800
+      Reference: -1000.0
+      Diff     : 200.0
+      Source   : Export_06-03-2026_14_26_56.xlsx
+    Date: 2026-06-01  Column: 386  USDZAR | BANKS | Volume (normalized)
+      Pipeline : -360
+      Reference: -350.0
+      Diff     : -10.0
+      Source   : Export_06-03-2026_14_22_08.xlsx
+    Date: 2026-06-01  Column: 345  USDPEN | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Closing Price
+      Pipeline : 3.4122
+      Reference: 3.4306
+      Diff     : -0.0184
+      Source   : Export_06-03-2026_14_19_04.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_06-03-2026_14_19_04.xlsx
+    Export_06-03-2026_14_20_13.xlsx
+    Export_06-03-2026_14_20_59.xlsx
+    Export_06-03-2026_14_21_32.xlsx
+    Export_06-03-2026_14_22_08.xlsx
+    Export_06-03-2026_14_26_39.xlsx
+    Export_06-03-2026_14_26_56.xlsx
+    Export_06-03-2026_14_27_09.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDPEN: 12 cells
+    USDKRW: 9 cells  [NO SOURCE FILE]
+    USDBRL: 7 cells  [NO SOURCE FILE]
+    USDZAR: 1 cells
+    USDPLN: 1 cells
+
+  Source files copied to  files/missing/:
+    Export_06-03-2026_14_19_04.xlsx
+    Export_06-03-2026_14_20_13.xlsx
+    Export_06-03-2026_14_20_59.xlsx
+    Export_06-03-2026_14_21_32.xlsx
+    Export_06-03-2026_14_22_08.xlsx
+    Export_06-03-2026_14_26_39.xlsx
+    Export_06-03-2026_14_26_56.xlsx
+    Export_06-03-2026_14_27_09.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDPEN: 12 cells
+    USDMXN: 9 cells
+    USDZAR: 1 cells
+    USDPLN: 1 cells
+
+  Source files copied to  files/new_values/:
+    Export_06-03-2026_14_17_56.xlsx
+    Export_06-03-2026_14_19_04.xlsx
+    Export_06-03-2026_14_20_13.xlsx
+    Export_06-03-2026_14_20_59.xlsx
+    Export_06-03-2026_14_21_32.xlsx
+    Export_06-03-2026_14_22_08.xlsx
+    Export_06-03-2026_14_26_39.xlsx
+    Export_06-03-2026_14_26_56.xlsx
+    Export_06-03-2026_14_27_09.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

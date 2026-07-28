@@ -1,0 +1,36 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-06-10 14:53:58
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260610_145236.xlsx
+  Reference       : CFXPP_DATA_20260608 (2).xlsx
+  Archive Dir     : 20260605_20260610
+
+OVERALL STATISTICS:
+  Total cells compared : 2,030
+  Matches              : 2,020 (99.51%)
+  Mismatches           : 0
+  Missing (in ref)     : 10
+  New values (extra)   : 0
+
+OUTPUT FILES:
+  report_mismatches.csv  (0 rows)
+  report_missing.csv     (10 rows)
+  report_new_values.csv  (0 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    EURUSD: 10 cells  [NO SOURCE FILE]
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

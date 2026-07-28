@@ -1,0 +1,95 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-07-27 15:22:36
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260727_152124.xlsx
+  Reference       : CFXPP_DATA_20260727.xlsx
+  Archive Dir     : 20260722_20260727
+
+OVERALL STATISTICS:
+  Total cells compared : 1,953
+  Matches              : 1,291 (66.10%)
+  Mismatches           : 5
+  Missing (in ref)     : 657
+  New values (extra)   : 0
+
+OUTPUT FILES:
+  report_mismatches.csv  (5 rows)
+  report_missing.csv     (657 rows)
+  report_new_values.csv  (0 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    FX Pair Positioning: 3
+    G10 Currency Positioning: 2
+
+  By Currency Pair:
+    USDINR: 3
+    G10/CAD: 1
+    G10/EUR: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-07-24  Column: 79  G10/EUR | REALMONEY | Net Cumulative Positioning
+      Pipeline : 690
+      Reference: 0.0
+      Diff     : 690.0
+      Source   : Export_07-27-2026_15_03_42.xlsx; Export_07-27-2026_14_57_14.xlsx; Export_07-27-2026_14_38_52.xlsx
+    Date: 2026-07-24  Column: 492  USDINR | CORPORATE_REALMONEY | Volume (normalized)
+      Pipeline : -240
+      Reference: -790.0
+      Diff     : 550.0
+      Source   : Export_07-27-2026_14_38_38.xlsx
+    Date: 2026-07-22  Column: 492  USDINR | CORPORATE_REALMONEY | Volume (normalized)
+      Pipeline : -390
+      Reference: -100.0
+      Diff     : -290.0
+      Source   : Export_07-27-2026_14_38_38.xlsx
+    Date: 2026-07-23  Column: 492  USDINR | CORPORATE_REALMONEY | Volume (normalized)
+      Pipeline : -360
+      Reference: -290.0
+      Diff     : -70.0
+      Source   : Export_07-27-2026_14_38_38.xlsx
+    Date: 2026-07-24  Column: 7  G10/CAD | BANKS_BROKER_CORPORATE_HEDGEFUND_REALMONEY_UNCLASSIFIED | Net Cumulative Positioning
+      Pipeline : 60
+      Reference: 30.0
+      Diff     : 30.0
+      Source   : Export_07-27-2026_14_58_36.xlsx; Export_07-27-2026_14_52_12.xlsx; Export_07-27-2026_14_23_14.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_07-27-2026_14_23_14.xlsx
+    Export_07-27-2026_14_38_38.xlsx
+    Export_07-27-2026_14_38_52.xlsx
+    Export_07-27-2026_14_52_12.xlsx
+    Export_07-27-2026_14_57_14.xlsx
+    Export_07-27-2026_14_58_36.xlsx
+    Export_07-27-2026_15_03_42.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    GBPUSD: 90 cells  [NO SOURCE FILE]
+    USDZAR: 87 cells  [NO SOURCE FILE]
+    USDCNH: 83 cells  [NO SOURCE FILE]
+    USDTRY: 81 cells  [NO SOURCE FILE]
+    USDPLN: 79 cells  [NO SOURCE FILE]
+    USDCLP: 70 cells  [NO SOURCE FILE]
+    AUDUSD: 50 cells  [NO SOURCE FILE]
+    EURUSD: 49 cells  [NO SOURCE FILE]
+    USDPEN: 33 cells  [NO SOURCE FILE]
+    USDBRL: 29 cells  [NO SOURCE FILE]
+    USDPHP: 6 cells  [NO SOURCE FILE]
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

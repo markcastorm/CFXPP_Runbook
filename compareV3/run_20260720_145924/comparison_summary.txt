@@ -1,0 +1,97 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-07-20 14:59:36
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260720_145854.xlsx
+  Reference       : CFXPP_DATA_20260714 (4).xlsx
+  Archive Dir     : 20260715_20260720
+
+OVERALL STATISTICS:
+  Total cells compared : 2,014
+  Matches              : 1,581 (78.50%)
+  Mismatches           : 17
+  Missing (in ref)     : 410
+  New values (extra)   : 6
+
+OUTPUT FILES:
+  report_mismatches.csv  (17 rows)
+  report_missing.csv     (410 rows)
+  report_new_values.csv  (6 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    FX Pair Positioning: 17
+
+  By Currency Pair:
+    GBPUSD: 17
+
+  Top mismatches (by absolute difference):
+    Date: 2026-07-16  Column: 198  GBPUSD | UNCLASSIFIED | Volume (normalized)
+      Pipeline : -810
+      Reference: -570.0
+      Diff     : -240.0
+      Source   : Export_07-20-2026_14_00_17.xlsx
+    Date: 2026-07-15  Column: 184  GBPUSD | BANKS_BROKER | Volume (normalized)
+      Pipeline : -770
+      Reference: -590.0
+      Diff     : -180.0
+      Source   : Export_07-20-2026_13_56_43.xlsx; Export_07-20-2026_13_56_00.xlsx
+    Date: 2026-07-15  Column: 198  GBPUSD | UNCLASSIFIED | Volume (normalized)
+      Pipeline : -460
+      Reference: -350.0
+      Diff     : -110.0
+      Source   : Export_07-20-2026_14_00_17.xlsx
+    Date: 2026-07-19  Column: 198  GBPUSD | UNCLASSIFIED | Volume (normalized)
+      Pipeline : -940
+      Reference: -880.0
+      Diff     : -60.0
+      Source   : Export_07-20-2026_14_00_17.xlsx
+    Date: 2026-07-17  Column: 198  GBPUSD | UNCLASSIFIED | Volume (normalized)
+      Pipeline : -940
+      Reference: -890.0
+      Diff     : -50.0
+      Source   : Export_07-20-2026_14_00_17.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_07-20-2026_13_56_00.xlsx
+    Export_07-20-2026_13_56_43.xlsx
+    Export_07-20-2026_13_56_57.xlsx
+    Export_07-20-2026_14_00_17.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDCNH: 85 cells  [NO SOURCE FILE]
+    USDZAR: 84 cells  [NO SOURCE FILE]
+    USDPLN: 83 cells  [NO SOURCE FILE]
+    USDTRY: 80 cells  [NO SOURCE FILE]
+    USDPEN: 43 cells  [NO SOURCE FILE]
+    GBPUSD: 10 cells  [NO SOURCE FILE]
+    USDMXN: 10 cells  [NO SOURCE FILE]
+    USDCLP: 9 cells  [NO SOURCE FILE]
+    USDINR: 6 cells  [NO SOURCE FILE]
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDTWD: 6 cells
+
+  Source files copied to  files/new_values/:
+    Export_07-20-2026_14_36_31.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

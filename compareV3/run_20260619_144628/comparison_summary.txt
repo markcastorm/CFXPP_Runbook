@@ -1,0 +1,83 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-06-19 14:46:42
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260619_144552.xlsx
+  Reference       : CFXPP_DATA_20260612 (3).xlsx
+  Archive Dir     : 20260615_20260619
+
+OVERALL STATISTICS:
+  Total cells compared : 2,271
+  Matches              : 2,266 (99.78%)
+  Mismatches           : 3
+  Missing (in ref)     : 0
+  New values (extra)   : 2
+
+OUTPUT FILES:
+  report_mismatches.csv  (3 rows)
+  report_missing.csv     (0 rows)
+  report_new_values.csv  (2 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    G10 Currency Positioning: 3
+
+  By Currency Pair:
+    G10/SEK: 1
+    G10/GBP: 1
+    G10/NOK: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-06-15  Column: 81  G10/GBP | REALMONEY | Net Cumulative Positioning
+      Pipeline : -240
+      Reference: -400.0
+      Diff     : 160.0
+      Source   : Export_06-19-2026_14_25_44.xlsx; Export_06-19-2026_14_15_32.xlsx; Export_06-19-2026_14_14_40.xlsx; Export_06-19-2026_14_13_20.xlsx
+    Date: 2026-06-15  Column: 57  G10/SEK | CORPORATE | Net Cumulative Positioning
+      Pipeline : -10
+      Reference: 10.0
+      Diff     : -20.0
+      Source   : Export_06-19-2026_14_25_21.xlsx; Export_06-19-2026_14_12_49.xlsx; Export_06-19-2026_14_12_42.xlsx; Export_06-19-2026_14_12_21.xlsx
+    Date: 2026-06-18  Column: 38  G10/NOK | BANKS | Net Cumulative Positioning
+      Pipeline : 0
+      Reference: 10.0
+      Diff     : -10.0
+      Source   : Export_06-19-2026_14_24_22.xlsx; Export_06-19-2026_14_11_17.xlsx; Export_06-19-2026_14_11_09.xlsx; Export_06-19-2026_14_10_54.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_06-19-2026_14_10_54.xlsx
+    Export_06-19-2026_14_11_09.xlsx
+    Export_06-19-2026_14_11_17.xlsx
+    Export_06-19-2026_14_12_21.xlsx
+    Export_06-19-2026_14_12_42.xlsx
+    Export_06-19-2026_14_12_49.xlsx
+    Export_06-19-2026_14_13_20.xlsx
+    Export_06-19-2026_14_14_40.xlsx
+    Export_06-19-2026_14_15_32.xlsx
+    Export_06-19-2026_14_24_22.xlsx
+    Export_06-19-2026_14_25_21.xlsx
+    Export_06-19-2026_14_25_44.xlsx
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDCOP: 2 cells
+
+  Source files copied to  files/new_values/:
+    Export_06-19-2026_14_31_07.xlsx
+    Export_06-19-2026_14_33_17.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

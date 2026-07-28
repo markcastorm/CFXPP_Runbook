@@ -1,0 +1,98 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-07-24 15:03:25
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260724_150205.xlsx
+  Reference       : CFXPP_DATA_20260723 (1).xlsx
+  Archive Dir     : 20260720_20260724
+
+OVERALL STATISTICS:
+  Total cells compared : 2,210
+  Matches              : 2,175 (98.42%)
+  Mismatches           : 4
+  Missing (in ref)     : 20
+  New values (extra)   : 11
+
+OUTPUT FILES:
+  report_mismatches.csv  (4 rows)
+  report_missing.csv     (20 rows)
+  report_new_values.csv  (11 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    EM Currency Positioning: 1
+    FX Pair Positioning: 2
+    G10 Currency Positioning: 1
+
+  By Currency Pair:
+    USDCLP: 2
+    EM/SGD: 1
+    G10/GBP: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-07-22  Column: 21  G10/GBP | BANKS_BROKER | Net Cumulative Positioning
+      Pipeline : -360
+      Reference: 210.0
+      Diff     : -570.0
+      Source   : Export_07-24-2026_14_31_27.xlsx; Export_07-24-2026_14_21_26.xlsx; Export_07-24-2026_14_14_21.xlsx; Export_07-24-2026_14_08_35.xlsx
+    Date: 2026-07-20  Column: 314  USDCLP | BANKS | Volume (normalized)
+      Pipeline : -890
+      Reference: -480.0
+      Diff     : -410.0
+      Source   : Export_07-24-2026_14_41_54.xlsx; Export_07-24-2026_14_41_33.xlsx
+    Date: 2026-07-21  Column: 157  EM/SGD | UNCLASSIFIED | Net Cumulative Positioning
+      Pipeline : 10
+      Reference: 280.0
+      Diff     : -270.0
+      Source   : Export_07-24-2026_14_53_57.xlsx; Export_07-24-2026_14_53_31.xlsx; Export_07-24-2026_14_42_13.xlsx; Export_07-24-2026_14_41_35.xlsx
+    Date: 2026-07-23  Column: 314  USDCLP | BANKS | Volume (normalized)
+      Pipeline : -980
+      Reference: -970.0
+      Diff     : -10.0
+      Source   : Export_07-24-2026_14_41_54.xlsx; Export_07-24-2026_14_41_33.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_07-24-2026_14_08_35.xlsx
+    Export_07-24-2026_14_14_21.xlsx
+    Export_07-24-2026_14_21_26.xlsx
+    Export_07-24-2026_14_31_27.xlsx
+    Export_07-24-2026_14_41_33.xlsx
+    Export_07-24-2026_14_41_35.xlsx
+    Export_07-24-2026_14_41_54.xlsx
+    Export_07-24-2026_14_42_13.xlsx
+    Export_07-24-2026_14_53_31.xlsx
+    Export_07-24-2026_14_53_57.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    EURUSD: 10 cells  [NO SOURCE FILE]
+    USDTRY: 10 cells  [NO SOURCE FILE]
+
+──────────────────────────────────────────────────────────────────────
+NEW VALUES  (present in pipeline, absent in reference)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDTRY: 10 cells
+    USDCLP: 1 cells
+
+  Source files copied to  files/new_values/:
+    Export_07-24-2026_14_41_33.xlsx
+    Export_07-24-2026_14_41_54.xlsx
+    Export_07-24-2026_14_53_47.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================

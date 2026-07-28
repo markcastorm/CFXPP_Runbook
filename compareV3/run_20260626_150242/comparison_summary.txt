@@ -1,0 +1,128 @@
+======================================================================
+CFXPP COMPARISON REPORT V3
+======================================================================
+
+Generated:  2026-06-26 15:02:56
+
+FILES COMPARED:
+  Pipeline Output : CFXPP_DATA_20260626_150203.xlsx
+  Reference       : CFXPP_DATA_20260624.xlsx
+  Archive Dir     : 20260622_20260626
+
+OVERALL STATISTICS:
+  Total cells compared : 2,240
+  Matches              : 2,163 (96.56%)
+  Mismatches           : 24
+  Missing (in ref)     : 53
+  New values (extra)   : 0
+
+OUTPUT FILES:
+  report_mismatches.csv  (24 rows)
+  report_missing.csv     (53 rows)
+  report_new_values.csv  (0 rows)
+
+──────────────────────────────────────────────────────────────────────
+MISMATCHES
+──────────────────────────────────────────────────────────────────────
+
+  By Section:
+    EM Currency Positioning: 16
+    FX Pair Positioning: 6
+    G10 Currency Positioning: 2
+
+  By Currency Pair:
+    USDJPY: 5
+    EM/HUF: 4
+    EM/MXN: 2
+    EM/PLN: 2
+    EM/ZAR: 2
+    EM/SGD: 2
+    EM/CZK: 2
+    EM/INR: 2
+    G10/USD: 1
+    G10/NZD: 1
+    USDMXN: 1
+
+  Top mismatches (by absolute difference):
+    Date: 2026-06-23  Column: 91  G10/USD | UNCLASSIFIED | Net Cumulative Positioning
+      Pipeline : -1000
+      Reference: 1000.0
+      Diff     : -2000.0
+      Source   : Export_06-26-2026_14_38_12.xlsx; Export_06-26-2026_14_32_38.xlsx; Export_06-26-2026_14_30_54.xlsx; Export_06-26-2026_14_18_23.xlsx
+    Date: 2026-06-22  Column: 238  USDJPY | BANKS_BROKER | Volume (normalized)
+      Pipeline : 640
+      Reference: -250.0
+      Diff     : 890.0
+      Source   : Export_06-26-2026_14_33_10.xlsx
+    Date: 2026-06-25  Column: 106  EM/INR | BANKS_BROKER | Net Cumulative Positioning
+      Pipeline : -80
+      Reference: -920.0
+      Diff     : 840.0
+      Source   : Export_06-26-2026_14_44_46.xlsx; Export_06-26-2026_14_39_19.xlsx; Export_06-26-2026_14_33_59.xlsx; Export_06-26-2026_14_20_54.xlsx
+    Date: 2026-06-25  Column: 109  EM/INR | CORPORATE_REALMONEY | Net Cumulative Positioning
+      Pipeline : -920
+      Reference: -80.0
+      Diff     : -840.0
+      Source   : Export_06-26-2026_14_45_25.xlsx; Export_06-26-2026_14_39_54.xlsx; Export_06-26-2026_14_34_10.xlsx; Export_06-26-2026_14_21_42.xlsx
+    Date: 2026-06-25  Column: 104  EM/SGD | BANKS_BROKER | Net Cumulative Positioning
+      Pipeline : 10
+      Reference: -790.0
+      Diff     : 800.0
+      Source   : Export_06-26-2026_14_44_46.xlsx; Export_06-26-2026_14_39_19.xlsx; Export_06-26-2026_14_33_59.xlsx; Export_06-26-2026_14_20_54.xlsx
+
+  Source files copied to  files/mismatch/:
+    Export_06-26-2026_14_13_50.xlsx
+    Export_06-26-2026_14_14_26.xlsx
+    Export_06-26-2026_14_15_38.xlsx
+    Export_06-26-2026_14_18_23.xlsx
+    Export_06-26-2026_14_20_27.xlsx
+    Export_06-26-2026_14_20_54.xlsx
+    Export_06-26-2026_14_21_42.xlsx
+    Export_06-26-2026_14_22_17.xlsx
+    Export_06-26-2026_14_27_57.xlsx
+    Export_06-26-2026_14_30_54.xlsx
+    Export_06-26-2026_14_32_38.xlsx
+    Export_06-26-2026_14_33_10.xlsx
+    Export_06-26-2026_14_33_59.xlsx
+    Export_06-26-2026_14_34_10.xlsx
+    Export_06-26-2026_14_34_23.xlsx
+    Export_06-26-2026_14_34_45.xlsx
+    Export_06-26-2026_14_38_12.xlsx
+    Export_06-26-2026_14_39_19.xlsx
+    Export_06-26-2026_14_39_54.xlsx
+    Export_06-26-2026_14_40_27.xlsx
+    Export_06-26-2026_14_44_46.xlsx
+    Export_06-26-2026_14_45_25.xlsx
+    Export_06-26-2026_14_48_48.xlsx
+    Export_06-26-2026_14_49_26.xlsx
+
+──────────────────────────────────────────────────────────────────────
+MISSING  (present in reference, absent in pipeline)
+──────────────────────────────────────────────────────────────────────
+
+  By Currency Pair:
+    USDCNH: 10 cells  [NO SOURCE FILE]
+    USDTWD: 10 cells  [NO SOURCE FILE]
+    USDCLP: 9 cells  [NO SOURCE FILE]
+    USDINR: 9 cells  [NO SOURCE FILE]
+    USDBRL: 7 cells  [NO SOURCE FILE]
+    EM/INR: 1 cells
+    EM/SGD: 1 cells
+    EM/CZK: 1 cells
+    EM/HUF: 1 cells
+    EM/TRY: 1 cells
+    EM/PLN: 1 cells
+    EM/MXN: 1 cells
+    EM/ZAR: 1 cells
+
+  Source files copied to  files/missing/:
+    Export_06-26-2026_14_25_10.xlsx
+    Export_06-26-2026_14_43_26.xlsx
+    Export_06-26-2026_14_44_36.xlsx
+
+======================================================================
+Detailed CSV reports:
+  report_mismatches.csv
+  report_missing.csv
+  report_new_values.csv
+======================================================================
